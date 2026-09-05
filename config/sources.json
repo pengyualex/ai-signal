@@ -1,5 +1,5 @@
 {
-    "twitter": {
+  "twitter": {
     "lookback_hours": 24,
     "max_tweets_per_user": 2,
     "min_engagement": 10,
@@ -13,48 +13,6 @@
         "handle": "karpathy",
         "name": "Andrej Karpathy",
         "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "swyx",
-        "name": "Swyx (Shawn Wang)",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "dylan522p",
-        "name": "Dylan Patel (SemiAnalysis)",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "insane_analyst",
-        "name": "Irrational Analysis",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "benthompson",
-        "name": "Ben Thompson (Stratechery)",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "naval",
-        "name": "Naval Ravikant",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "jimkxa",
-        "name": "Jim Keller",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "GavinSBaker",
-        "name": "Gavin Baker (Atreides Management)",
-        "domain": "invest",
         "tier": "analyst"
       },
       {
@@ -76,46 +34,10 @@
         "tier": "exec"
       },
       {
-        "handle": "jietang",
-        "name": "Tang Jie (Z.ai / Tsinghua)",
-        "domain": "ai",
-        "tier": "exec"
-      },
-      {
         "handle": "JensenHuang",
         "name": "Jensen Huang (NVIDIA CEO)",
         "domain": "ai",
         "tier": "exec"
-      },
-      {
-        "handle": "AmandaAskell",
-        "name": "Amanda Askell (Anthropic)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "bcherny",
-        "name": "Boris Cherny (Claude Code)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "_catwu",
-        "name": "Cat Wu (Anthropic)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "alexalbert__",
-        "name": "Alex Albert (Anthropic)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "rauchg",
-        "name": "Guillermo Rauch (Vercel)",
-        "domain": "ai",
-        "tier": "builder"
       },
       {
         "handle": "joshwoodward",
