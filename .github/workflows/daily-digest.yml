@@ -138,12 +138,15 @@ jobs:
         || (github.event_name == 'schedule' && github.event.schedule == '0 22 * * *')
       )
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     env:
       TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
       # Hard budget for the whole X stage. See TWITTER_TIMEOUT.patch.
       TWITTER_SEARCH_TIMEOUT: '75'
-      TWITTER_TOTAL_TIMEOUT: '600'
+      TWITTER_TOTAL_TIMEOUT: '1200'
+      # Pace searches so a single cookie account does not trip X's
+      # anti-automation (HTTP 483) by hammering 19 queries back-to-back.
+      TWITTER_BETWEEN_HANDLES: '10'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

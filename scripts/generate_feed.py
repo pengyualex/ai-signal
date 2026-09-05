@@ -570,6 +570,8 @@ async def fetch_twitter(sources):
     search_timeout = float(os.environ.get("TWITTER_SEARCH_TIMEOUT", "75"))
     total_timeout = float(os.environ.get("TWITTER_TOTAL_TIMEOUT", "600"))
     stage_started = time.monotonic()
+    between_handles = float(os.environ.get("TWITTER_BETWEEN_HANDLES", "10"))
+    first_handle = True
     # ----------------------------------------------------------------
 
     for account in accounts:
@@ -580,6 +582,14 @@ async def fetch_twitter(sources):
             )
             errors.append(f"twitter stage budget exhausted after {len(results)} accounts")
             break
+        # --- per-handle pacing (self-hosted fork) ------------------
+        # A single authenticated account hammering 19 searches in a row
+        # trips X's anti-automation (HTTP 483). Spread them out.
+        if not first_handle and between_handles > 0:
+            log(f"  ⏸ pacing {between_handles:.0f}s before next handle")
+            time.sleep(between_handles)
+        first_handle = False
+        # ----------------------------------------------------------
         handle = account["handle"]
         min_engagement = int(account.get("min_engagement", twitter_cfg.get("min_engagement", 0)))
         include_replies = bool(account.get("include_replies", twitter_cfg.get("include_replies", False)))
