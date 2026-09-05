@@ -424,6 +424,7 @@
       "transcript_chars": 0
     },
     {
+<<<<<<< Updated upstream
       "channel": "a16z",
       "domain": "invest",
       "person": "Gavin Baker",
@@ -446,6 +447,8 @@
       "transcript_chars": 0
     },
     {
+=======
+>>>>>>> Stashed changes
       "channel": "Inspire With Selva",
       "domain": "ai",
       "person": "Naval Ravikant",
@@ -455,7 +458,11 @@
       "pub_date": "",
       "pub_date_source": "unverified",
       "publish_date_unverified": true,
+<<<<<<< Updated upstream
       "first_seen": "2026-09-05T11:22:32.237296+00:00",
+=======
+      "first_seen": "2026-09-05T11:38:03.386162+00:00",
+>>>>>>> Stashed changes
       "link": "https://www.youtube.com/watch?v=3F-sQCJBDks",
       "audio_url": "",
       "duration": "19:58",
@@ -469,5 +476,9 @@
     }
   ],
   "errors": null,
+<<<<<<< Updated upstream
   "generated_at": "2026-09-05T11:22:32.236301+00:00"
+=======
+  "generated_at": "2026-09-05T11:38:03.384912+00:00"
+>>>>>>> Stashed changes
 }
