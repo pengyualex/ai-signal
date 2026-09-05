@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "generated_at": "2026-09-05T22:10:08.780731+00:00",
   "retention_days": 14,
   "transcripts": [
@@ -16,4 +17,9 @@
       "expires_at": "2026-09-19T22:10:08.780731+00:00"
     }
   ]
+=======
+  "generated_at": "2026-09-05T22:22:29.364327+00:00",
+  "retention_days": 14,
+  "transcripts": []
+>>>>>>> Stashed changes
 }

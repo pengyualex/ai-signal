@@ -1,6 +1,7 @@
 {
   "podcasts": [
     {
+<<<<<<< Updated upstream
       "channel": "Y Combinator Startup Podcast",
       "domain": "ai",
       "guid": "7c65ddda-c090-461a-b909-ce3011d76e27",
@@ -218,6 +219,8 @@
       "transcript_chars": 0
     },
     {
+=======
+>>>>>>> Stashed changes
       "channel": "TIME",
       "domain": "ai",
       "person": "Greg Brockman",
@@ -227,7 +230,11 @@
       "pub_date": "",
       "pub_date_source": "unverified",
       "publish_date_unverified": true,
+<<<<<<< Updated upstream
       "first_seen": "2026-09-05T22:09:43.780304+00:00",
+=======
+      "first_seen": "2026-09-05T22:22:05.730175+00:00",
+>>>>>>> Stashed changes
       "link": "https://www.youtube.com/watch?v=dnSpKF5pWNQ",
       "audio_url": "",
       "duration": "54:38",
@@ -249,7 +256,11 @@
       "pub_date": "",
       "pub_date_source": "unverified",
       "publish_date_unverified": true,
+<<<<<<< Updated upstream
       "first_seen": "2026-09-05T22:09:43.780304+00:00",
+=======
+      "first_seen": "2026-09-05T22:22:05.730175+00:00",
+>>>>>>> Stashed changes
       "link": "https://www.youtube.com/watch?v=cRX84IvyVNU",
       "audio_url": "",
       "duration": "32:15",
@@ -271,7 +282,11 @@
       "pub_date": "",
       "pub_date_source": "unverified",
       "publish_date_unverified": true,
+<<<<<<< Updated upstream
       "first_seen": "2026-09-05T22:09:43.780304+00:00",
+=======
+      "first_seen": "2026-09-05T22:22:05.730175+00:00",
+>>>>>>> Stashed changes
       "link": "https://www.youtube.com/watch?v=VeizK1M7V7E",
       "audio_url": "",
       "duration": "1:08:40",
@@ -293,7 +308,11 @@
       "pub_date": "",
       "pub_date_source": "unverified",
       "publish_date_unverified": true,
+<<<<<<< Updated upstream
       "first_seen": "2026-09-05T22:09:43.780304+00:00",
+=======
+      "first_seen": "2026-09-05T22:22:05.730175+00:00",
+>>>>>>> Stashed changes
       "link": "https://www.youtube.com/watch?v=FGC4ofTcg2k",
       "audio_url": "",
       "duration": "1:14:26",
@@ -306,9 +325,14 @@
       "transcript_chars": 0
     }
   ],
+<<<<<<< Updated upstream
   "errors": [
     "Latent Space: https://api.substack.com/feed/podcast/1084089.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Lenny's Podcast: https://api.substack.com/feed/podcast/10845.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
   "generated_at": "2026-09-05T22:09:37.716305+00:00"
+=======
+  "errors": null,
+  "generated_at": "2026-09-05T22:22:05.729576+00:00"
+>>>>>>> Stashed changes
 }
