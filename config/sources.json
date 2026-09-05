@@ -4,7 +4,10 @@
     "max_tweets_per_user": 5,
     "min_engagement": 10,
     "include_replies": false,
-    "judgment_tiers": ["analyst", "exec"],
+    "judgment_tiers": [
+      "analyst",
+      "exec"
+    ],
     "accounts": [
       {
         "handle": "karpathy",
@@ -127,9 +130,9 @@
     "transcription": {
       "provider": "volc_asr_auc",
       "enabled_by_default": true,
-      "default_limit": 2,
+      "default_limit": 1,
       "poll_interval_seconds": 10,
-      "max_wait_seconds": 1800,
+      "max_wait_seconds": 600,
       "relevance_keywords": [
         "ai",
         "artificial intelligence",

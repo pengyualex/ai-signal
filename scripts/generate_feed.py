@@ -563,14 +563,33 @@ async def fetch_twitter(sources):
     global_seen_ids = set()
     accounts_with_raw_results = 0
 
+    # --- hang guard (self-hosted fork) ------------------------------
+    # twscrape queues requests when the account is rate-limited, so a
+    # throttled cookie used to stall this loop indefinitely. Cap each
+    # search and the stage as a whole; both are env-overridable.
+    search_timeout = float(os.environ.get("TWITTER_SEARCH_TIMEOUT", "75"))
+    total_timeout = float(os.environ.get("TWITTER_TOTAL_TIMEOUT", "600"))
+    stage_started = time.monotonic()
+    # ----------------------------------------------------------------
+
     for account in accounts:
+        if time.monotonic() - stage_started > total_timeout:
+            log(
+                f"⏹ Twitter budget hit after {len(results)} accounts, "
+                f"stopping ({total_timeout:.0f}s)"
+            )
+            errors.append(f"twitter stage budget exhausted after {len(results)} accounts")
+            break
         handle = account["handle"]
         min_engagement = int(account.get("min_engagement", twitter_cfg.get("min_engagement", 0)))
         include_replies = bool(account.get("include_replies", twitter_cfg.get("include_replies", False)))
         apply_relevance = uses_relevance_filter(account, twitter_cfg)
         log(f"📥 @{handle}..." + ("" if apply_relevance else " (judgment tier, no keyword gate)"))
         try:
-            raw = await gather(api.search(f"from:{handle}", limit=max_per_user * 3, kv={"product": "Latest"}))
+            raw = await asyncio.wait_for(
+                gather(api.search(f"from:{handle}", limit=max_per_user * 3, kv={"product": "Latest"})),
+                timeout=search_timeout,
+            )
         except Exception as e:
             log(f"  ⚠️ {e}")
             errors.append(f"@{handle}: {e}")
