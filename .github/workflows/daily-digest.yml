@@ -5,20 +5,25 @@ name: Generate Daily Feed
 #
 # What changed vs upstream, and why:
 #
-#   1. ONE JOB -> THREE JOBS (arxiv / podcasts / twitter), each with its own
-#      short timeout and its own commit. Upstream ran everything in a single
+#   1. ONE JOB -> FOUR JOBS (arxiv / podcasts / twitter / blogs), each with its
+#      own short timeout and its own commit. Upstream ran everything in a single
 #      job with `timeout-minutes: 75`; when the X scrape hung, "Commit feeds"
-#      was skipped along with everything else, so *all three* feeds silently
-#      froze while the digest kept serving a stale snapshot.
+#      was skipped along with everything else, so *all* feeds silently froze
+#      while the digest kept serving a stale snapshot.
 #
-#   2. timeout-minutes 75 -> 15/30/20. Historical "Generate feeds" runtime is
-#      0-2 minutes. A 75-minute ceiling only hides a hang; short ceilings fail
-#      fast and let the next stage run.
+#   2. timeout-minutes 75 -> 15/30/20/15. Historical "Generate feeds" runtime
+#      is 0-2 minutes. A 75-minute ceiling only hides a hang; short ceilings
+#      fail fast and let the next stage run.
 #
 #   3. `if: always()` on every downstream job, so one broken source can never
 #      block the others from being committed.
 #
-#   4. Podcast ASR wait capped via env (upstream config allows 1800s per item
+#   4. `feed_scope` (manual dispatch) is honoured: a manual "Run workflow" with
+#      scope=arxiv runs ONLY the arxiv job, so you can verify the pipeline
+#      without the not-yet-configured twitter/podcasts secrets turning the run
+#      red. `all` (default) or the nightly schedule runs everything.
+#
+#   5. Podcast ASR wait capped via env (upstream config allows 1800s per item
 #      x 2 items, which alone can eat most of the budget).
 #
 # See TWITTER_TIMEOUT.patch for the code fix that removes the hang itself.
@@ -31,7 +36,7 @@ on:
   workflow_dispatch:
     inputs:
       feed_scope:
-        description: 'Which source to refresh'
+        description: 'Which source to refresh (manual runs only)'
         required: false
         default: 'all'
         type: choice
@@ -50,11 +55,16 @@ concurrency:
   group: daily-feed-${{ github.ref }}
   cancel-in-progress: false
 
+# Scope filter shared by the three non-arxiv jobs.
+#   - on schedule: only the nightly 22:00 run refreshes them; the weekday
+#     01:30 arxiv-only follow-up skips them.
+#   - on manual dispatch: only run when feed_scope is 'all' or this source.
+# arxiv itself always runs (it is the base every other job depends on).
 jobs:
   # ---------------------------------------------------------------- arxiv ---
   # Zero secrets required. Most reliable source; runs first and always commits.
   arxiv:
-    if: ${{ github.event.schedule != '30 1 * * 1-5' || true }}
+    if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -79,9 +89,15 @@ jobs:
           for i in 1 2 3; do git push && break || sleep 5; done
 
   # ------------------------------------------------------------- podcasts ---
+  # Needs a VOLC_ASR_API_KEY secret for full transcripts; without it, audio
+  # falls back to YouTube captions + RSS description and still commits.
   podcasts:
-    needs: arxiv
-    if: ${{ always() && github.event.schedule != '0 22 * * *' }}
+    needs: [arxiv]
+    if: >-
+      always() && (
+        (github.event_name == 'workflow_dispatch' && (inputs.feed_scope == 'all' || inputs.feed_scope == 'podcasts'))
+        || (github.event_name == 'schedule' && github.event.schedule == '0 22 * * *')
+      )
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
@@ -115,8 +131,12 @@ jobs:
   # The fragile one: needs TWITTER_COOKIES and is the stage that hung upstream.
   # Isolated here on purpose so a hang can only ever cost this one feed.
   twitter:
-    needs: [arxiv, podcasts]
-    if: ${{ always() && github.event.schedule != '30 1 * * 1-5' }}
+    needs: [arxiv]
+    if: >-
+      always() && (
+        (github.event_name == 'workflow_dispatch' && (inputs.feed_scope == 'all' || inputs.feed_scope == 'twitter'))
+        || (github.event_name == 'schedule' && github.event.schedule == '0 22 * * *')
+      )
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
@@ -146,7 +166,11 @@ jobs:
   # ---------------------------------------------------------------- blogs ---
   blogs:
     needs: [arxiv]
-    if: ${{ always() && github.event.schedule != '30 1 * * 1-5' }}
+    if: >-
+      always() && (
+        (github.event_name == 'workflow_dispatch' && (inputs.feed_scope == 'all' || inputs.feed_scope == 'blogs'))
+        || (github.event_name == 'schedule' && github.event.schedule == '0 22 * * *')
+      )
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
