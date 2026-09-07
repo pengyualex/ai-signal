@@ -1,23 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "generated_at": "2026-09-06T22:09:07.271945+00:00",
-=======
-  "generated_at": "2026-09-06T22:21:29.742736+00:00",
->>>>>>> Stashed changes
+  "generated_at": "2026-09-07T22:27:28.482264+00:00",
   "retention_days": 14,
-  "transcripts": [
-    {
-      "guid": "61206a3c-2874-4c39-9930-31cef1253358",
-      "link": "https://tedseides.libsyn.com/special-annoucement-capital-allocators-university-online",
-      "channel": "Capital Allocators",
-      "title": "SPECIAL ANNOUNCEMENT: Capital Allocators University Online",
-      "pub_date": "2026-09-03T08:00:00+00:00",
-      "transcript_path": "feeds/transcripts/01bb3f8e8f83280a3dd1ece0.txt",
-      "transcript_chars": 2528,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-06T03:47:17.648467+00:00",
-      "last_seen_at": "2026-09-06T22:21:29.742736+00:00",
-      "expires_at": "2026-09-20T22:21:29.742736+00:00"
-    }
-  ]
+  "transcripts": []
 }
