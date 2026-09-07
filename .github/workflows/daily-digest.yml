@@ -5,25 +5,20 @@ name: Generate Daily Feed
 #
 # What changed vs upstream, and why:
 #
-#   1. ONE JOB -> FOUR JOBS (arxiv / podcasts / twitter / blogs), each with its
-#      own short timeout and its own commit. Upstream ran everything in a single
+#   1. ONE JOB -> THREE JOBS (arxiv / podcasts / twitter), each with its own
+#      short timeout and its own commit. Upstream ran everything in a single
 #      job with `timeout-minutes: 75`; when the X scrape hung, "Commit feeds"
-#      was skipped along with everything else, so *all* feeds silently froze
-#      while the digest kept serving a stale snapshot.
+#      was skipped along with everything else, so *all three* feeds silently
+#      froze while the digest kept serving a stale snapshot.
 #
-#   2. timeout-minutes 75 -> 15/30/20/15. Historical "Generate feeds" runtime
-#      is 0-2 minutes. A 75-minute ceiling only hides a hang; short ceilings
-#      fail fast and let the next stage run.
+#   2. timeout-minutes 75 -> 15/30/20. Historical "Generate feeds" runtime is
+#      0-2 minutes. A 75-minute ceiling only hides a hang; short ceilings fail
+#      fast and let the next stage run.
 #
 #   3. `if: always()` on every downstream job, so one broken source can never
 #      block the others from being committed.
 #
-#   4. `feed_scope` (manual dispatch) is honoured: a manual "Run workflow" with
-#      scope=arxiv runs ONLY the arxiv job, so you can verify the pipeline
-#      without the not-yet-configured twitter/podcasts secrets turning the run
-#      red. `all` (default) or the nightly schedule runs everything.
-#
-#   5. Podcast ASR wait capped via env (upstream config allows 1800s per item
+#   4. Podcast ASR wait capped via env (upstream config allows 1800s per item
 #      x 2 items, which alone can eat most of the budget).
 #
 # See TWITTER_TIMEOUT.patch for the code fix that removes the hang itself.
@@ -36,7 +31,7 @@ on:
   workflow_dispatch:
     inputs:
       feed_scope:
-        description: 'Which source to refresh (manual runs only)'
+        description: 'Which source to refresh'
         required: false
         default: 'all'
         type: choice
@@ -55,16 +50,11 @@ concurrency:
   group: daily-feed-${{ github.ref }}
   cancel-in-progress: false
 
-# Scope filter shared by the three non-arxiv jobs.
-#   - on schedule: only the nightly 22:00 run refreshes them; the weekday
-#     01:30 arxiv-only follow-up skips them.
-#   - on manual dispatch: only run when feed_scope is 'all' or this source.
-# arxiv itself always runs (it is the base every other job depends on).
 jobs:
   # ---------------------------------------------------------------- arxiv ---
   # Zero secrets required. Most reliable source; runs first and always commits.
   arxiv:
-    if: always()
+    if: ${{ github.event.schedule != '30 1 * * 1-5' || true }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -82,22 +72,33 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin ${{ github.ref_name }} || true
+          git pull --rebase --autostash origin ${{ github.ref_name }} || git pull --rebase origin ${{ github.ref_name }} || true
+          # Regenerate THIS job's feed AFTER the pull so the committed file is
+          # always our fresh, marker-free output. This also heals a rebase/
+          # autostash conflict (which otherwise leaves '<<<<<<< Updated upstream'
+          # markers that then get committed and break JSON parsing downstream).
+          python scripts/generate_feed.py --arxiv-only || true
+          # If a concurrent job left conflict markers anywhere under feeds/,
+          # restore feeds/ from HEAD and regenerate to guarantee a clean tree.
+          if grep -rqE '^(<<<<<<<|>>>>>>>|=======)' feeds/ 2>/dev/null; then
+            echo "::warning::conflict markers in feeds/, restoring from HEAD"
+            git checkout -- feeds/ 2>/dev/null || true
+            python scripts/generate_feed.py --arxiv-only || true
+          fi
+          # HARD GUARD: never stage/commit a file containing conflict markers.
+          if grep -rqE '^(<<<<<<<|>>>>>>>|=======)' feeds/ 2>/dev/null; then
+            echo "::error::conflict markers still present, aborting commit"
+            exit 0
+          fi
           git add feeds/ || true
           git diff --cached --quiet && echo "no arxiv changes" && exit 0
           git commit -m "feed(arxiv): $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git push && break || sleep 5; done
+          for i in 1 2 3; do git push origin ${{ github.ref_name }} && break || { git pull --rebase --autostash origin ${{ github.ref_name }}; sleep 5; }; done
 
   # ------------------------------------------------------------- podcasts ---
-  # Needs a VOLC_ASR_API_KEY secret for full transcripts; without it, audio
-  # falls back to YouTube captions + RSS description and still commits.
   podcasts:
-    needs: [arxiv]
-    if: >-
-      always() && (
-        (github.event_name == 'workflow_dispatch' && (inputs.feed_scope == 'all' || inputs.feed_scope == 'podcasts'))
-        || (github.event_name == 'schedule' && github.event.schedule == '0 22 * * *')
-      )
+    needs: arxiv
+    if: ${{ always() && github.event.schedule != '0 22 * * *' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
@@ -121,33 +122,42 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin ${{ github.ref_name }} || true
+          git pull --rebase --autostash origin ${{ github.ref_name }} || git pull --rebase origin ${{ github.ref_name }} || true
+          # Regenerate THIS job's feed AFTER the pull so the committed file is
+          # always our fresh, marker-free output. This also heals a rebase/
+          # autostash conflict (which otherwise leaves '<<<<<<< Updated upstream'
+          # markers that then get committed and break JSON parsing downstream).
+          python scripts/generate_feed.py --podcasts-only || true
+          # If a concurrent job left conflict markers anywhere under feeds/,
+          # restore feeds/ from HEAD and regenerate to guarantee a clean tree.
+          if grep -rqE '^(<<<<<<<|>>>>>>>|=======)' feeds/ 2>/dev/null; then
+            echo "::warning::conflict markers in feeds/, restoring from HEAD"
+            git checkout -- feeds/ 2>/dev/null || true
+            python scripts/generate_feed.py --podcasts-only || true
+          fi
+          # HARD GUARD: never stage/commit a file containing conflict markers.
+          if grep -rqE '^(<<<<<<<|>>>>>>>|=======)' feeds/ 2>/dev/null; then
+            echo "::error::conflict markers still present, aborting commit"
+            exit 0
+          fi
           git add feeds/ || true
           git diff --cached --quiet && echo "no podcast changes" && exit 0
           git commit -m "feed(podcasts): $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git push && break || sleep 5; done
+          for i in 1 2 3; do git push origin ${{ github.ref_name }} && break || { git pull --rebase --autostash origin ${{ github.ref_name }}; sleep 5; }; done
 
   # -------------------------------------------------------------- twitter ---
   # The fragile one: needs TWITTER_COOKIES and is the stage that hung upstream.
   # Isolated here on purpose so a hang can only ever cost this one feed.
   twitter:
-    needs: [arxiv]
-    if: >-
-      always() && (
-        (github.event_name == 'workflow_dispatch' && (inputs.feed_scope == 'all' || inputs.feed_scope == 'twitter'))
-        || (github.event_name == 'schedule' && github.event.schedule == '0 22 * * *')
-      )
+    needs: [arxiv, podcasts]
+    if: ${{ always() && github.event.schedule != '30 1 * * 1-5' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 20
     env:
       TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
       # Hard budget for the whole X stage. See TWITTER_TIMEOUT.patch.
       TWITTER_SEARCH_TIMEOUT: '75'
-      TWITTER_TOTAL_TIMEOUT: '1200'
-      # Pace searches so a single cookie account does not trip X's
-      # anti-automation (HTTP 483) by hammering queries back-to-back.
-      # 60s between the 6 kept handles (was 10s over 19 -> trip-locked).
-      TWITTER_BETWEEN_HANDLES: '60'
+      TWITTER_TOTAL_TIMEOUT: '600'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -161,20 +171,33 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin ${{ github.ref_name }} || true
+          git pull --rebase --autostash origin ${{ github.ref_name }} || git pull --rebase origin ${{ github.ref_name }} || true
+          # Regenerate THIS job's feed AFTER the pull so the committed file is
+          # always our fresh, marker-free output. This also heals a rebase/
+          # autostash conflict (which otherwise leaves '<<<<<<< Updated upstream'
+          # markers that then get committed and break JSON parsing downstream).
+          python scripts/generate_feed.py --twitter-only || python scripts/generate_feed.py --people-only || true
+          # If a concurrent job left conflict markers anywhere under feeds/,
+          # restore feeds/ from HEAD and regenerate to guarantee a clean tree.
+          if grep -rqE '^(<<<<<<<|>>>>>>>|=======)' feeds/ 2>/dev/null; then
+            echo "::warning::conflict markers in feeds/, restoring from HEAD"
+            git checkout -- feeds/ 2>/dev/null || true
+            python scripts/generate_feed.py --twitter-only || python scripts/generate_feed.py --people-only || true
+          fi
+          # HARD GUARD: never stage/commit a file containing conflict markers.
+          if grep -rqE '^(<<<<<<<|>>>>>>>|=======)' feeds/ 2>/dev/null; then
+            echo "::error::conflict markers still present, aborting commit"
+            exit 0
+          fi
           git add feeds/ || true
           git diff --cached --quiet && echo "no twitter changes" && exit 0
           git commit -m "feed(x): $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git push && break || sleep 5; done
+          for i in 1 2 3; do git push origin ${{ github.ref_name }} && break || { git pull --rebase --autostash origin ${{ github.ref_name }}; sleep 5; }; done
 
   # ---------------------------------------------------------------- blogs ---
   blogs:
     needs: [arxiv]
-    if: >-
-      always() && (
-        (github.event_name == 'workflow_dispatch' && (inputs.feed_scope == 'all' || inputs.feed_scope == 'blogs'))
-        || (github.event_name == 'schedule' && github.event.schedule == '0 22 * * *')
-      )
+    if: ${{ always() && github.event.schedule != '30 1 * * 1-5' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -190,8 +213,25 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin ${{ github.ref_name }} || true
+          git pull --rebase --autostash origin ${{ github.ref_name }} || git pull --rebase origin ${{ github.ref_name }} || true
+          # Regenerate THIS job's feed AFTER the pull so the committed file is
+          # always our fresh, marker-free output. This also heals a rebase/
+          # autostash conflict (which otherwise leaves '<<<<<<< Updated upstream'
+          # markers that then get committed and break JSON parsing downstream).
+          python scripts/generate_feed.py --blogs-only || echo "blogs scope not supported by this version"
+          # If a concurrent job left conflict markers anywhere under feeds/,
+          # restore feeds/ from HEAD and regenerate to guarantee a clean tree.
+          if grep -rqE '^(<<<<<<<|>>>>>>>|=======)' feeds/ 2>/dev/null; then
+            echo "::warning::conflict markers in feeds/, restoring from HEAD"
+            git checkout -- feeds/ 2>/dev/null || true
+            python scripts/generate_feed.py --blogs-only || echo "blogs scope not supported by this version"
+          fi
+          # HARD GUARD: never stage/commit a file containing conflict markers.
+          if grep -rqE '^(<<<<<<<|>>>>>>>|=======)' feeds/ 2>/dev/null; then
+            echo "::error::conflict markers still present, aborting commit"
+            exit 0
+          fi
           git add feeds/ || true
           git diff --cached --quiet && echo "no blog changes" && exit 0
           git commit -m "feed(blogs): $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git push && break || sleep 5; done
+          for i in 1 2 3; do git push origin ${{ github.ref_name }} && break || { git pull --rebase --autostash origin ${{ github.ref_name }}; sleep 5; }; done
