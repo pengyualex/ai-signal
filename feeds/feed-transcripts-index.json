@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-09-13T22:29:06.084081+00:00",
+  "generated_at": "2026-09-14T01:39:38.048559+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "link": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "channel": "Dwarkesh Patel",
+      "title": "AI researchers debate how close we are to recursive self-improvement",
+      "pub_date": "2026-09-11T16:28:11+00:00",
+      "transcript_path": "feeds/transcripts/2562a1ae932d375360bceab1.txt",
+      "transcript_chars": 102324,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-14T01:38:42.199868+00:00",
+      "last_seen_at": "2026-09-14T01:39:38.048559+00:00",
+      "expires_at": "2026-09-28T01:39:38.048559+00:00"
+    },
     {
       "guid": "fcc44f37-f242-4730-a77c-5f3d83c24fa9",
       "link": "https://deepmind.com/podcast",
