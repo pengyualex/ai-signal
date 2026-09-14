@@ -260,7 +260,9 @@
         "domain": "ai",
         "rss_url": "https://rss.libsyn.com/shows/254861/destinations/1928300.xml",
         "needs_filter": true,
-        "transcribe_missing": "relevant"
+        "transcribe_missing": "relevant",
+        "lookback_hours": 504,
+        "always_include": true
       },
       {
         "name": "a16z",
