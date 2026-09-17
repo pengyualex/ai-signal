@@ -44,6 +44,60 @@
         "name": "Josh Woodward (Google Labs)",
         "domain": "ai",
         "tier": "builder"
+      },
+      {
+        "handle": "markgurman",
+        "name": "Mark Gurman (Bloomberg)",
+        "domain": "ai",
+        "tier": "analyst"
+      },
+      {
+        "handle": "sssjeffpu",
+        "name": "Jeff Pu (GF Securities)",
+        "domain": "ai",
+        "tier": "analyst"
+      },
+      {
+        "handle": "jukan05",
+        "name": "Jukan (Citrini Research / SemiconSam)",
+        "domain": "ai",
+        "tier": "analyst"
+      },
+      {
+        "handle": "FundaAI",
+        "name": "FundaAI (AI equity research)",
+        "domain": "ai",
+        "tier": "analyst"
+      },
+      {
+        "handle": "dylan522p",
+        "name": "Dylan Patel (SemiAnalysis)",
+        "domain": "ai",
+        "tier": "analyst"
+      },
+      {
+        "handle": "a16z",
+        "name": "a16z",
+        "domain": "ai",
+        "tier": "analyst"
+      },
+      {
+        "handle": "latentspacepod",
+        "name": "Latent Space (podcast)",
+        "domain": "ai",
+        "tier": "analyst"
+      },
+      {
+        "handle": "artificialanalyze",
+        "name": "Artificial Analysis",
+        "domain": "ai",
+        "tier": "analyst"
+      },
+      {
+        "handle": "theallinpod",
+        "name": "The All-In Podcast",
+        "domain": "ai",
+        "tier": "analyst"
       }
     ]
   },
