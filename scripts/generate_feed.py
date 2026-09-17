@@ -542,7 +542,7 @@ async def fetch_twitter(sources):
         try:
             import twscrape.xclid as _xclid
             from twscrape.http import make_client as _mc
-            _xclid._make_client = lambda cookies=None: _mc(
+            _xclid._make_client = lambda cookies=None, **kw: _mc(
                 proxy=proxy,
                 headers={"user-agent": "@chrome"},
                 cookies=cookies,
@@ -1956,10 +1956,16 @@ async def main():
     if run_all or args.twitter_only:
         log("\n━━━ Twitter/X ━━━")
         twitter_feed = await fetch_twitter(sources)
-        twitter_feed["generated_at"] = now.isoformat()
-        write_json(FEEDS_DIR / "feed-x.json", twitter_feed)
         active = sum(1 for a in twitter_feed["x"] if a["tweets"])
-        log(f"✅ feed-x.json ({active}/{len(twitter_feed['x'])} accounts with content)")
+        if active == 0:
+            # Guard: never overwrite a good cached feed with an empty one
+            # (e.g. when the scheduled GitHub run is rate-limited / 483).
+            log("⚠️ Twitter fetched 0 accounts with content — "
+                "NOT overwriting feed-x.json to preserve last good cache")
+        else:
+            twitter_feed["generated_at"] = now.isoformat()
+            write_json(FEEDS_DIR / "feed-x.json", twitter_feed)
+            log(f"✅ feed-x.json ({active}/{len(twitter_feed['x'])} accounts with content)")
 
     if run_all or args.podcasts_only or args.people_only:
         log("\n━━━ Podcasts ━━━")
