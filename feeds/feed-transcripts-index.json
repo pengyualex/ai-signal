@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T01:39:42.396491+00:00",
+  "generated_at": "2026-09-17T03:05:04.235860+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 181518,
       "transcript_source": "description_transcript_link",
       "cached_at": "2026-09-17T01:38:39.569031+00:00",
-      "last_seen_at": "2026-09-17T01:39:42.396491+00:00",
-      "expires_at": "2026-10-01T01:39:42.396491+00:00"
+      "last_seen_at": "2026-09-17T03:05:04.235860+00:00",
+      "expires_at": "2026-10-01T03:05:04.235860+00:00"
     },
     {
       "guid": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
@@ -25,8 +25,8 @@
       "transcript_chars": 4027,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-16T01:37:29.669005+00:00",
-      "last_seen_at": "2026-09-17T01:39:42.396491+00:00",
-      "expires_at": "2026-10-01T01:39:42.396491+00:00"
+      "last_seen_at": "2026-09-17T03:05:04.235860+00:00",
+      "expires_at": "2026-10-01T03:05:04.235860+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/john-beren-charlie",
