@@ -17,10 +17,10 @@
           "id": "2100351958167220547",
           "text": "the main thing i was excited about launching this week will be next week instead, but imo worth the wait!",
           "created_at": "2026-09-16T22:31:44+00:00",
-          "like_count": 8972,
-          "retweet_count": 356,
-          "reply_count": 1009,
-          "engagement_score": 10693,
+          "like_count": 9315,
+          "retweet_count": 370,
+          "reply_count": 1028,
+          "engagement_score": 11083,
           "url": "https://x.com/sama/status/2100351958167220547",
           "quoted": {
             "text": "big 🚢 this week and then for devday 🚢🚢🚢🚢🚢🚢",
@@ -47,20 +47,20 @@
           "id": "2100230524383981702",
           "text": "For 20+ years @ShaneLegg and I've discussed AGI’s potential impact on the economy, science & society. With the DeepMind Institute, we're expanding interdisciplinary research on key questions for the AI era. We hope it spurs the discussions needed to get the next steps right: https://t.co/Bqf10G3Xep",
           "created_at": "2026-09-16T14:29:12+00:00",
-          "like_count": 3376,
-          "retweet_count": 538,
-          "reply_count": 253,
-          "engagement_score": 4705,
+          "like_count": 3428,
+          "retweet_count": 543,
+          "reply_count": 256,
+          "engagement_score": 4770,
           "url": "https://x.com/demishassabis/status/2100230524383981702"
         },
         {
           "id": "2100211548794839140",
           "text": "Honoured to receive the Albert Medal from\n@theRSAorg! Science & tech enable amazing opportunities, but the arts & humanities will be crucial in shaping what sort of future we want to see as a society in the coming AGI era. Fun discussion w/\n@FryRsquared covering many new topics: https://t.co/Pmf73lyak8",
           "created_at": "2026-09-16T13:13:47+00:00",
-          "like_count": 1244,
+          "like_count": 1251,
           "retweet_count": 121,
           "reply_count": 159,
-          "engagement_score": 1645,
+          "engagement_score": 1652,
           "url": "https://x.com/demishassabis/status/2100211548794839140"
         }
       ]
@@ -78,8 +78,192 @@
       "domain": "ai",
       "tier": "builder",
       "tweets": []
+    },
+    {
+      "handle": "markgurman",
+      "name": "Mark Gurman (Bloomberg)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2100252758859489391",
+          "text": "I believe this could be the M7 Ultra (unless Apple is doing M8 Ultra simultaneously) - I wrote a few months ago Apple is working on a new AI server to compete with Nvidia built around M7 for 2029. There’s also a new Apple AI server going live early 2027. https://t.co/gvtWMBvm0m https://t.co/ZtfnlqmMTl",
+          "created_at": "2026-09-16T15:57:33+00:00",
+          "like_count": 1114,
+          "retweet_count": 59,
+          "reply_count": 35,
+          "engagement_score": 1267,
+          "url": "https://x.com/markgurman/status/2100252758859489391",
+          "quoted": {
+            "text": "Sources: Apple is developing enterprise AI servers powered by two or four M8 Ultra chips, set for 2029, and is considering integrating Nvidia's NVLink Fusion (The Information) (Visit Techmeme dot com for the link and full context!)",
+            "handle": "Techmeme",
+            "url": "https://x.com/Techmeme/status/2100212174232932848"
+          }
+        }
+      ]
+    },
+    {
+      "handle": "sssjeffpu",
+      "name": "Jeff Pu (GF Securities)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "jukan05",
+      "name": "Jukan (Citrini Research / SemiconSam)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2100166810238927213",
+          "text": "Remember that SK hynix said “We have no plans for an ADR listing” even before it listed its ADRs.",
+          "created_at": "2026-09-16T10:16:01+00:00",
+          "like_count": 614,
+          "retweet_count": 32,
+          "reply_count": 24,
+          "engagement_score": 702,
+          "url": "https://x.com/jukan05/status/2100166810238927213",
+          "quoted": {
+            "text": "SK HYNIX INC: NO PLANS HAVE BEEN CONFIRMED REGARDING THE REPORTED TALKS BETWEEN SK HYNIX AND INTEL ON MEMORY CHIP PRODUCTION IN THE U.S.",
+            "handle": "DeItaone",
+            "url": "https://x.com/DeItaone/status/2100164315420528968"
+          }
+        },
+        {
+          "id": "2100378754032038094",
+          "text": "According to Korean media reports, lead times for essential components used in semiconductor manufacturing equipment have more than doubled.\n\nA senior executive at a Korean deposition equipment maker, identified as Company A, said, “We are struggling to secure components. We used to receive parts for deposition equipment within four months of placing an order, but that has recently stretched to as long as 10 months.”\n\nCompany B, which manufactures laser processing equipment for semiconductors, said it now takes up to 40 months to receive critical components from Japan.\n\n“We are willing to pay a premium for faster delivery, but our component suppliers have told us they cannot shorten lead times because their production capacity is limited,” a Company B representative said. “Without alternative suppliers, we face immediate difficulties manufacturing equipment.”\n\nPackaging equipment maker Company C has established a domestic component supply chain, but it is also experiencing delivery delays. “We are in a better position than companies sourcing from overseas, but securing components still takes about 50% longer than usual,” a Company C executive said.\n\nThat means components used to manufacture packaging equipment that typically arrived within four months now take six months or longer.\n\nThe industry’s reluctance to use Chinese components is also contributing to the problem amid U.S.-China trade tensions. There are concerns that including Chinese components in the supply chain for advanced semiconductor manufacturing could lead to restrictions on doing business with U.S. chipmakers. With Chinese suppliers having rapidly expanded their presence in the semiconductor equipment components market through competitive pricing, excluding them makes it difficult to find alternatives.",
+          "created_at": "2026-09-17T00:18:12+00:00",
+          "like_count": 310,
+          "retweet_count": 29,
+          "reply_count": 14,
+          "engagement_score": 382,
+          "url": "https://x.com/jukan05/status/2100378754032038094"
+        }
+      ]
+    },
+    {
+      "handle": "FundaAI",
+      "name": "FundaAI (AI equity research)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2100237481715347495",
+          "text": "We view the report of a potential partnership between SK Hynix and Intel as highly credible. Through this alliance, SK Hynix can establish U.S.-based memory chip manufacturing capacity in a more efficient and cost-effective manner, swiftly aligning with \"Made in USA\" policy mandates and market demand. Compared to building a greenfield facility from scratch, this approach bypasses cumbersome regulatory approvals and avoids the prolonged lead times and heavy resource expenditure associated with land acquisition and power and water utility infrastructure.\n\nSK Hynix in talks with Intel about deal to make memory chips in US for the first time, sources say - https://t.co/qxwpzljjZf",
+          "created_at": "2026-09-16T14:56:50+00:00",
+          "like_count": 79,
+          "retweet_count": 7,
+          "reply_count": 2,
+          "engagement_score": 95,
+          "url": "https://x.com/FundaAI/status/2100237481715347495"
+        },
+        {
+          "id": "2100352754179051984",
+          "text": "FUNDA Play’s monitoring data is consistent with the upward pricing trend at NBIS. H100 pricing has stabilized, while prices for all other instance types continue to rise. Over the past month, NeoLab has been the largest marginal buyer. Having raised funding just a few months ago, they now need to lock in capacity. Beyond NeoLab, robotics companies are also emerging as marginal buyers. However, demand from NeoLab appears less sustainable than demand from robotics companies, which is somewhat concerning.\n\nSubscribe to FUNDA’s Substack to get full access to the FUNDA Platform.https://t.co/q2jXCRRwJW",
+          "created_at": "2026-09-16T22:34:53+00:00",
+          "like_count": 46,
+          "retweet_count": 5,
+          "reply_count": 3,
+          "engagement_score": 59,
+          "url": "https://x.com/FundaAI/status/2100352754179051984",
+          "quoted": {
+            "text": "$NBIS INCREASE ON-DEMAND GPU RATES EFFECTIVE OCTOBER 1. H100: $3.85 per GPU-hour -> $4.50 H200: $4.50 per GPU-hour -> $5.40 B200: $7.15 per GPU-hour -> $8.50 B300: $7.85 per GPU-hour -> $9.50 AMD EPYC Genoa CPU and memory rates will also increase. Intel Ice Lake CPU pricing remains unchanged.",
+            "handle": "ParadisLabs",
+            "url": "https://x.com/ParadisLabs/status/2100331348720517486"
+          }
+        }
+      ]
+    },
+    {
+      "handle": "dylan522p",
+      "name": "Dylan Patel (SemiAnalysis)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "a16z",
+      "name": "a16z",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2100306232661991797",
+          "text": "not trying is the only guaranteed failure https://t.co/TB51IgieHH",
+          "created_at": "2026-09-16T19:30:02+00:00",
+          "like_count": 1179,
+          "retweet_count": 93,
+          "reply_count": 28,
+          "engagement_score": 1393,
+          "url": "https://x.com/a16z/status/2100306232661991797"
+        },
+        {
+          "id": "2100231341086277921",
+          "text": "Lightfield co-founder and CEO Keith Peiris on killing a product with two million monthly users and rebuilding the CRM from scratch:\n\nLightfield's predecessor was an AI presentation tool growing faster than the team could buy inference to support it. Keith shut it down anyway. Nobody on the team liked the product.\n\nKeith decided he wanted to attack the CRM space, a vertical that's notoriously hard to break into. A company's record of its customers is scattered across a whole stack of systems that often contradict each other.\n\nHis bet is reconciling them into one coherent source of truth, what Lightfield calls a business world model. Every agent a team might run sits downstream of it.\n\nIn this conversation with a16z's Alex Rampell and Joe Schmidt: the office space they traded for their first 10 customers, why a CRM ended up modeled on the Facebook timeline, three attempts at pricing before one worked, and why nobody at a 40-person company has a fixed role.\n\n00:00 Intro\n01:24 Why 2 million users wasn't enough\n03:36 Why better models wouldn't have fixed it\n06:41 Reconciling the data was the real product\n08:16 How free rent bought their first 10 customers\n10:12 A CRM does 3 jobs and only 1 matters\n11:42 Autopilot CRM nobody has to update\n14:56 No more rigid data models\n17:11 How one customer modeled a whole marketplace\n18:48 Taking customers from an incumbent\n23:49 How to survive a new head of sales\n26:03 Why the CEO still uses a spreadsheet view\n30:55 Pricing models that failed before one worked\n36:23 Fixed roles make product pivots impossible\n40:02 Why slow shipping loses CRM customers\n43:17 What Silicon Valley customers are actually worth\n46:20 Why buyers need a reference who looks like them\n50:40 What to ignore during a pivot\n\nYouTube: https://t.co/mcMyqOBMla\n\n@keithpeiris @lightfld @arampell @joeschmidtiv",
+          "created_at": "2026-09-16T14:32:26+00:00",
+          "like_count": 106,
+          "retweet_count": 20,
+          "reply_count": 20,
+          "engagement_score": 166,
+          "url": "https://x.com/a16z/status/2100231341086277921"
+        }
+      ]
+    },
+    {
+      "handle": "latentspacepod",
+      "name": "Latent Space (podcast)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2100313776113451389",
+          "text": "Underwriting Superintelligence: AIUC-1, Agent Audits, Insurance, & the Watchdogs of AGI https://t.co/F5kIJL26n6\n\nAI Underwriting Company cofounder @RuneKvist explains why risk and trust may become the real bottlenecks to AI adoption, how AIUC stress-tests agents for jailbreaks, hallucinations, and data leaks, why standards and insurance need to evolve together, what happens when a $20 AI agent creates $200M of liability, and why even after AGI there’s one job the labs can never do themselves: be their own watchdog.",
+          "created_at": "2026-09-16T20:00:00+00:00",
+          "like_count": 15,
+          "retweet_count": 2,
+          "reply_count": 5,
+          "engagement_score": 24,
+          "url": "https://x.com/latentspacepod/status/2100313776113451389"
+        }
+      ]
+    },
+    {
+      "handle": "artificialanalyze",
+      "name": "Artificial Analysis",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "theallinpod",
+      "name": "The All-In Podcast",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2100424287161098728",
+          "text": "All-In Summit: Brad Gerstner\n\n-- Who’s Paying for AI CapEx?\n\n-- Semis Eat the Nasdaq\n\n-- Not Firing, Just Not Hiring\n\n-- The Gigawatt Gap\n\n++ much more!\n\n(0:00) Welcome @altcap \n\n(1:01) Trump Accounts, Every Child a Capitalist & The CAC Scan\n\n(5:07) Can AI revenue pay for the CapEx?\n\n(8:53) The Build Out Issue: Gigawatts, TAM, Token Growth, and Margin Expansion\n\n(12:30) The risks: AI regulation, the nuclear precedent, power limits, and rising rates",
+          "created_at": "2026-09-17T03:19:08+00:00",
+          "like_count": 257,
+          "retweet_count": 31,
+          "reply_count": 24,
+          "engagement_score": 343,
+          "url": "https://x.com/theallinpod/status/2100424287161098728"
+        },
+        {
+          "id": "2100425100357185877",
+          "text": "All-In Summit is officially wrapped. Three full days of unexpected event experiences, incredible partner activations, and a lifetime of connections made right here in this room. \n\nThank you to our presenting sponsor IREN (@IREN_Ltd) We’ll see you all next year. #AllInSummit https://t.co/dVzc0FvC3S",
+          "created_at": "2026-09-17T03:22:22+00:00",
+          "like_count": 270,
+          "retweet_count": 21,
+          "reply_count": 10,
+          "engagement_score": 322,
+          "url": "https://x.com/theallinpod/status/2100425100357185877"
+        }
+      ]
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-17T07:24:17.599280+00:00"
+  "generated_at": "2026-09-17T08:28:09.349727+00:00"
 }
