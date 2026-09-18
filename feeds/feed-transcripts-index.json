@@ -1,5 +1,58 @@
 {
-  "generated_at": "2026-09-17T03:23:05.259447+00:00",
+  "generated_at": "2026-09-18T01:36:55.719703+00:00",
   "retention_days": 14,
-  "transcripts": []
+  "transcripts": [
+    {
+      "guid": "https://www.dwarkesh.com/p/noam-brown",
+      "link": "https://www.dwarkesh.com/p/noam-brown",
+      "channel": "Dwarkesh Patel",
+      "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+      "pub_date": "2026-09-17T15:38:13+00:00",
+      "transcript_path": "feeds/transcripts/88a1ae465c7634d7b7da83a9.txt",
+      "transcript_chars": 79938,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-18T01:36:16.383884+00:00",
+      "last_seen_at": "2026-09-18T01:36:55.719703+00:00",
+      "expires_at": "2026-10-02T01:36:55.719703+00:00"
+    },
+    {
+      "guid": "f225e979-78f3-4508-95fe-79293b3ff678",
+      "link": "https://allinchamathjason.libsyn.com/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais-take-off-problem",
+      "channel": "All-In Podcast",
+      "title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+      "pub_date": "2026-09-17T03:04:00+00:00",
+      "transcript_path": "feeds/transcripts/4481e45609453cec64d84352.txt",
+      "transcript_chars": 3854,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-18T01:36:16.383884+00:00",
+      "last_seen_at": "2026-09-18T01:36:55.719703+00:00",
+      "expires_at": "2026-10-02T01:36:55.719703+00:00"
+    },
+    {
+      "guid": "https://lexfridman.com/?p=6554",
+      "link": "https://lexfridman.com/andrew-scull/?utm_source=rss&utm_medium=rss&utm_campaign=andrew-scull",
+      "channel": "Lex Fridman",
+      "title": "#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung",
+      "pub_date": "2026-09-17T00:40:49+00:00",
+      "transcript_path": "feeds/transcripts/64bf58bcf5dae9d633cdd0e8.txt",
+      "transcript_chars": 181518,
+      "transcript_source": "description_transcript_link",
+      "cached_at": "2026-09-18T01:36:16.383884+00:00",
+      "last_seen_at": "2026-09-18T01:36:55.719703+00:00",
+      "expires_at": "2026-10-02T01:36:55.719703+00:00"
+    },
+    {
+      "guid": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
+      "link": "https://allinchamathjason.libsyn.com/jd-vance-on-ai-entitlement-fraud-iran-war-israel-h-1b-abuse-the-midterms",
+      "channel": "All-In Podcast",
+      "title": "JD Vance on AI, Entitlement Fraud, Iran War, Israel, H-1B Abuse & the Midterms",
+      "pub_date": "2026-09-15T20:46:00+00:00",
+      "transcript_path": "feeds/transcripts/98a76c7c697d96df3edbffdb.txt",
+      "transcript_chars": 4027,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-18T01:36:16.383884+00:00",
+      "last_seen_at": "2026-09-18T01:36:55.719703+00:00",
+      "expires_at": "2026-10-02T01:36:55.719703+00:00"
+    }
+  ]
 }
