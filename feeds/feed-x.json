@@ -12,23 +12,7 @@
       "name": "Sam Altman",
       "domain": "ai",
       "tier": "exec",
-      "tweets": [
-        {
-          "id": "2100351958167220547",
-          "text": "the main thing i was excited about launching this week will be next week instead, but imo worth the wait!",
-          "created_at": "2026-09-16T22:31:44+00:00",
-          "like_count": 9344,
-          "retweet_count": 370,
-          "reply_count": 1030,
-          "engagement_score": 11114,
-          "url": "https://x.com/sama/status/2100351958167220547",
-          "quoted": {
-            "text": "big 🚢 this week and then for devday 🚢🚢🚢🚢🚢🚢",
-            "handle": "sama",
-            "url": "https://x.com/sama/status/2099872600977760451"
-          }
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "DarioAmodei",
@@ -42,28 +26,7 @@
       "name": "Demis Hassabis (Google DeepMind)",
       "domain": "ai",
       "tier": "exec",
-      "tweets": [
-        {
-          "id": "2100230524383981702",
-          "text": "For 20+ years @ShaneLegg and I've discussed AGI’s potential impact on the economy, science & society. With the DeepMind Institute, we're expanding interdisciplinary research on key questions for the AI era. We hope it spurs the discussions needed to get the next steps right: https://t.co/Bqf10G3Xep",
-          "created_at": "2026-09-16T14:29:12+00:00",
-          "like_count": 3431,
-          "retweet_count": 543,
-          "reply_count": 256,
-          "engagement_score": 4773,
-          "url": "https://x.com/demishassabis/status/2100230524383981702"
-        },
-        {
-          "id": "2100211548794839140",
-          "text": "Honoured to receive the Albert Medal from\n@theRSAorg! Science & tech enable amazing opportunities, but the arts & humanities will be crucial in shaping what sort of future we want to see as a society in the coming AGI era. Fun discussion w/\n@FryRsquared covering many new topics: https://t.co/Pmf73lyak8",
-          "created_at": "2026-09-16T13:13:47+00:00",
-          "like_count": 1253,
-          "retweet_count": 121,
-          "reply_count": 159,
-          "engagement_score": 1654,
-          "url": "https://x.com/demishassabis/status/2100211548794839140"
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "JensenHuang",
@@ -77,7 +40,38 @@
       "name": "Josh Woodward (Google Labs)",
       "domain": "ai",
       "tier": "builder",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2100665648825483726",
+          "text": "Have a family? We ❤️ this in ours.",
+          "created_at": "2026-09-17T19:18:13+00:00",
+          "like_count": 150,
+          "retweet_count": 9,
+          "reply_count": 14,
+          "engagement_score": 182,
+          "url": "https://x.com/joshwoodward/status/2100665648825483726",
+          "quoted": {
+            "text": "CC the entire fam 🤝! Today, we’re announcing the new CC – an AI agent built for families to spend less time on logistics and more time together. You can now: 👤 Add up to 5 members to your CC agent ☀️ Start mornings aligned with a shared \"Your Day Ahead\" brief email 🗓️ Autosync schedules & to-dos with a shared Google Calendar and Tasks 💬 Coordinate in Google Chat with CC to offload relevant tasks (ie., crafting weekly meal plans, school supply shopping lists, etc) 📝 Delegate paperwork (ie., permission slips, forms, and more) for CC to complete under your direction 📌 Keep tabs on the details – CC remembers what applies to everyone (ie., family grocery lists, favorite restaurants) versus what applies to one person (ie., dietary restrictions, local timezones) Ready to keep everybody on the same page? Join the waitlist or upgrade your existing CC (US only, 18+): https://t.co/6Id5GRBrVc",
+            "handle": "GoogleLabs",
+            "url": "https://x.com/GoogleLabs/status/2100653821907366366"
+          }
+        },
+        {
+          "id": "2100616682431807860",
+          "text": "If you're not using @Gemini_Notebook on your phone yet, you're missing out. This is such a cool story!",
+          "created_at": "2026-09-17T16:03:39+00:00",
+          "like_count": 111,
+          "retweet_count": 8,
+          "reply_count": 14,
+          "engagement_score": 141,
+          "url": "https://x.com/joshwoodward/status/2100616682431807860",
+          "quoted": {
+            "text": "The camera feature in the @Gemini_Notebook mobile app is so transformative for on-the-go research. I was up in the Sierras working on a new project, and I just took photos of everything, like this museum display. Then I asked for a detailed report of all the info in the image. The text below is what I got back. (I fact-checked it myself and it was 99% accurate -- and some of the text it transcribed is so blurry in the image that it was hard for me to read it.) Next step is to generate documents like this for all the photos I took, and then ask Notebook to highlight all the information that adds something new to the existing knowledge base of sources I've already collected, or is particularly relevant to my latest writing and outline for the project. Truly magical. Mariposa Museum Exhibit Reference: Mariposa in 1859 & Gold Rush Era This reference document consolidates all text, photographic captions, historical statistics, newspaper clippings, and exhibit overlays displayed on the Mariposa Museum exhibit panel regarding Mariposa during and after the Gold Rush. 1. Exhibit Overview & Key Headlines Main Title: \"THIS WAS MARIPOSA IN 1859 – ONLY 10 YEARS AFTER THE GOLD RUSH BEGAN.\" Historical Context Sub-headline: \"PORTIONS OF THE TOWN HAD BEEN REBUILT AFTER THE FIRE OF 1858.. & PARTS OF IT WERE DOOMED TO BE DESTROYED IN 1866\" Display Overview: The exhibit centers on a large 1850s panoramic photograph of Mariposa, annotated with street names, landmark locations, and population statistics, flanked by contemporary hotel advertisements, fire reports, medical artifacts, and photographs of civic buildings. 2. Demographic & Real Estate Statistics (1850s vs. Present) MetricHistorical Value (1850s Gold Rush Peak)Modern Value Town Population~3,000 residents~1,800 estimated Entire Mariposa Diggings Area~15,000 residents— Commercial Establishments15 to 20 stores & saloons, plus hotels— Town Lot Prices00 to 00 per lot— 3. Background Photograph & Civic Infrastructure Background Photo Date: Taken in the 1850s, capturing the rapid growth of the settlement following the initial gold strike. 1854 Mariposa County Courthouse: Shown in the background panorama prior to the construction of its iconic clock tower. A separate framed photograph depicts the completed white wood-frame courthouse with a white picket fence and clock tower. Clock Tower History: The clock mechanism was imported from England and is an 8-day, manually wound instrument. It remains operational today, maintained by the Mariposa Public Works Department. Annotated Overlay Locations on Panorama: 1854 Courthouse: Located at the upper edge of town on Jones Street. Jones Street & Bullion Street: Upper residential and civic thoroughfares. Charles Street (Main Street): Primary commercial artery running through the center of the valley floor. Schlageter Hotel Site: Positioned along Main Street. Mariposa Creek: Flowing along the foreground basin of the town diggings. 4. The Fire of 1866: Mariposa's Second Great Conflagration Below is the complete transcript of the Mariposa Gazette report featured on the panel regarding the disaster of August 25, 1866 (following the earlier destructive fire of 1858): Article Text: \"FIRE! MARIPOSA'S SECOND GREAT FIRE\" A few minutes after 6 p.m. on Saturday, August 25, 1866 Mariposa was again ruined by a disastrous fire (first in 1858). According to the Gazette (the building was damaged but not destroyed), the fire was believed to have started when \"a recently imported printer stepped inside the Free Press office and lighted a cigar. The match had evidently been dropped carelessly amongst the papers on the floor. The Free Press office was located near the corner of Main and 7th Streets and by ten minutes the fire had spread through two blocks. The fire crossed Main Street to the Odd Fellows building and the Methodist Church and soon the buildings on the block between 6th and 7th Streets were burning like so much chaff.\" Seven full blocks, except for four fire-proof buildings, were totally destroyed. \"In one hour about 60 buildings and 77,000 worth of property were destroyed.\" By early Monday morning the men were clearing away debris and by press time the following Saturday, the Gazette reported that several temporary business structures had already been erected and were open for business. Inventory of Buildings Destroyed in the 1866 Fire: Residential & Civic: 14 Dwellings, 1 Church, 1 Odd Fellows and Masons Hall. Media & Printing: 1 Newspaper Office (Free Press), 1 Newspaper Depot. Hospitality & Retail: 3 Hotels, 5 Retail Stores, 1 Saddlery Shop, 9 Liquor Saloons (several equipped with billiard tables). Services & Trades: 2 Livery Stables, 3 Law Offices, 1 Drug Store, 3 Blacksmith Shops, 2 Carpenter Shops, 2 Shoemaker Shops, 1 Tailor Shop, 2 Butchering Establishments. Outbuildings: Numerous outhouses, private stables, and auxiliary structures. 5. Commercial Hotels & Lodging Gallison Hotel (1887 Advertisement) Location: Main Street, Mariposa (center of business district, opposite Odd Fellows' Hall). Proprietor: Winslow Gallison. Management: Mrs. Gallison individually superintended all internal departments of the hotel. Amenities: Newly furnished rooms, first-class table dining. Mariposa Hotel (1887 Card) Location: Corner of Main and Fifth Streets. Proprietor: Charles A. Schlageter. Target Market: Accommodated general travelers as well as Yosemite tourists on short notice. Amenities: Family rooms, well-lighted parlors, good table, and bath facilities. The Schlageter Hotel Date Built: Built in the 1850s. Architecture: Prominent two-story wooden structure featuring full upper and lower covered verandas. 6. Medical Artifacts & 19th-Century Therapeutics Old Mariposa Hospital A framed historical photograph depicts a two-story wood-frame hospital building with a prominent front porch and side wing (annotated \"from Chic Allingham\"). Dr. D. Jayne's Family Medicines (1880 Display Broadside) 1. Jayne's Specific for Tape-Worm Diagnosis: Describes tapeworm infections as widespread, noting that discharging white or yellowish segments (\"resembling gourd seeds\") is the only positive diagnostic proof. Pricing & Ordering: .00 per dose, shipped nationwide via mail from 242 Chestnut Street, Philadelphia. Usage Instructions: Dissolve powder in a pint of boiling water, drink in three equal hourly doses on an empty stomach. Follow with Cathartic medicines if bowels do not operate in three hours. 2. Dr. D. Jayne's Sanative Pills Formulation: Concentrated, sugar-coated pills. Sold in 50-pill boxes (-bash.25) or 15-pill specimen packets (-bash.10). Prescribed Ailments: Advertised for liver complaints, gout, jaundice, dyspepsia, rheumatism, kidney affections, fevers, nervousness, skin diseases, melancholy, sick headache, and costiveness (constipation). 3. Exhibit Commentary Note A small museum card mounted below the broadside reads: \"A man advertises for 'a competent person to undertake the sale of a new medicine' and adds innocently 'It will prove profitable to the undertaker.'\"",
+            "handle": "stevenbjohnson",
+            "url": "https://x.com/stevenbjohnson/status/2100612880047767553"
+          }
+        }
+      ]
     },
     {
       "handle": "markgurman",
@@ -86,18 +80,18 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2100252758859489391",
-          "text": "I believe this could be the M7 Ultra (unless Apple is doing M8 Ultra simultaneously) - I wrote a few months ago Apple is working on a new AI server to compete with Nvidia built around M7 for 2029. There’s also a new Apple AI server going live early 2027. https://t.co/gvtWMBvm0m https://t.co/ZtfnlqmMTl",
-          "created_at": "2026-09-16T15:57:33+00:00",
-          "like_count": 1118,
-          "retweet_count": 60,
-          "reply_count": 35,
-          "engagement_score": 1273,
-          "url": "https://x.com/markgurman/status/2100252758859489391",
+          "id": "2100614483790168184",
+          "text": "Hey @johnternus - please add me to the list!",
+          "created_at": "2026-09-17T15:54:55+00:00",
+          "like_count": 2570,
+          "retweet_count": 32,
+          "reply_count": 54,
+          "engagement_score": 2688,
+          "url": "https://x.com/markgurman/status/2100614483790168184",
           "quoted": {
-            "text": "Sources: Apple is developing enterprise AI servers powered by two or four M8 Ultra chips, set for 2029, and is considering integrating Nvidia's NVLink Fusion (The Information) (Visit Techmeme dot com for the link and full context!)",
-            "handle": "Techmeme",
-            "url": "https://x.com/Techmeme/status/2100212174232932848"
+            "text": "Celebs Reportedly Begged Apple CEO for Unreleased $1,999 Foldable iPhone Details: https://t.co/HYWsCw6Dsi https://t.co/jD5ioZlu8m",
+            "handle": "Complex",
+            "url": "https://x.com/Complex/status/2100605552086671460"
           }
         }
       ]
@@ -107,7 +101,23 @@
       "name": "Jeff Pu (GF Securities)",
       "domain": "ai",
       "tier": "analyst",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2100506193102065733",
+          "text": "Re: CCL Upgrade Debate\nTheoretically right, but practically the CCL upgrade stays.\n1.  CPO won’t hit the compute board anytime soon\n2.  NVSwitch NPO/CPO next year still uses higher-spec CCL (PTFE + M8/9). -&gt; Key thesis is still PTFE\n3. Others can be seen in many posts #CCL #PCB",
+          "created_at": "2026-09-17T08:44:36+00:00",
+          "like_count": 71,
+          "retweet_count": 7,
+          "reply_count": 0,
+          "engagement_score": 85,
+          "url": "https://x.com/sssjeffpu/status/2100506193102065733",
+          "quoted": {
+            "text": "市场传闻与盘面影响 市场传出观点：CPO 逐步导入 AI 服务器、交换机，高速信号由铜转光，会降低对 M8/M9 超低损耗 CCL 需求，主板规格甚至可下修至 M4；该传言引发盘中覆铜板板块卖压。 传闻逻辑：CPO 把光引擎靠近主芯片，PCB 高速铜传输距离大幅缩短；448G 世代下光替代铜趋势会更明显，削弱 “SerDes 迭代带动 CCL 规格、ASP 上行” 的原有产业逻辑。 供应链及机构反驳：市场过度解读 ① 当前 CPO 应用主要集中在Scale‑out 交换机，2026、2027 年出货预估分别不到 2 万台、5 万台；机柜内部 Scale‑up 传输依旧高度依赖铜互连，仍需要超低损耗 CCL。 ② CPO 解决的是长距离高速传输的损耗与功耗，并不会消除服务器内部全部高速电气连接，直接等同于主板规格降至 M4 不符合产品实际进展。 ③ 主板全面降规的前提，需要 CPO 同时大规模渗透 Scale‑out+Scale‑up 两类场景，该情景距离落地尚远。",
+            "handle": "freearkshaw",
+            "url": "https://x.com/freearkshaw/status/2100485829231775916"
+          }
+        }
+      ]
     },
     {
       "handle": "jukan05",
@@ -116,29 +126,24 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2100166810238927213",
-          "text": "Remember that SK hynix said “We have no plans for an ADR listing” even before it listed its ADRs.",
-          "created_at": "2026-09-16T10:16:01+00:00",
-          "like_count": 614,
-          "retweet_count": 32,
-          "reply_count": 24,
-          "engagement_score": 702,
-          "url": "https://x.com/jukan05/status/2100166810238927213",
-          "quoted": {
-            "text": "SK HYNIX INC: NO PLANS HAVE BEEN CONFIRMED REGARDING THE REPORTED TALKS BETWEEN SK HYNIX AND INTEL ON MEMORY CHIP PRODUCTION IN THE U.S.",
-            "handle": "DeItaone",
-            "url": "https://x.com/DeItaone/status/2100164315420528968"
-          }
+          "id": "2100731887195185477",
+          "text": "Heading to Tokyo today. Traveling for fun instead of work is always nice.",
+          "created_at": "2026-09-17T23:41:26+00:00",
+          "like_count": 251,
+          "retweet_count": 3,
+          "reply_count": 25,
+          "engagement_score": 282,
+          "url": "https://x.com/jukan05/status/2100731887195185477"
         },
         {
-          "id": "2100378754032038094",
-          "text": "According to Korean media reports, lead times for essential components used in semiconductor manufacturing equipment have more than doubled.\n\nA senior executive at a Korean deposition equipment maker, identified as Company A, said, “We are struggling to secure components. We used to receive parts for deposition equipment within four months of placing an order, but that has recently stretched to as long as 10 months.”\n\nCompany B, which manufactures laser processing equipment for semiconductors, said it now takes up to 40 months to receive critical components from Japan.\n\n“We are willing to pay a premium for faster delivery, but our component suppliers have told us they cannot shorten lead times because their production capacity is limited,” a Company B representative said. “Without alternative suppliers, we face immediate difficulties manufacturing equipment.”\n\nPackaging equipment maker Company C has established a domestic component supply chain, but it is also experiencing delivery delays. “We are in a better position than companies sourcing from overseas, but securing components still takes about 50% longer than usual,” a Company C executive said.\n\nThat means components used to manufacture packaging equipment that typically arrived within four months now take six months or longer.\n\nThe industry’s reluctance to use Chinese components is also contributing to the problem amid U.S.-China trade tensions. There are concerns that including Chinese components in the supply chain for advanced semiconductor manufacturing could lead to restrictions on doing business with U.S. chipmakers. With Chinese suppliers having rapidly expanded their presence in the semiconductor equipment components market through competitive pricing, excluding them makes it difficult to find alternatives.",
-          "created_at": "2026-09-17T00:18:12+00:00",
-          "like_count": 314,
-          "retweet_count": 29,
-          "reply_count": 14,
-          "engagement_score": 386,
-          "url": "https://x.com/jukan05/status/2100378754032038094"
+          "id": "2100724113040126340",
+          "text": "Interesting. SMIC is reportedly developing BSPDN as well, for its N7 and N5 nodes. https://t.co/Cmgf5Pd96r",
+          "created_at": "2026-09-17T23:10:32+00:00",
+          "like_count": 101,
+          "retweet_count": 6,
+          "reply_count": 7,
+          "engagement_score": 120,
+          "url": "https://x.com/jukan05/status/2100724113040126340"
         }
       ]
     },
@@ -149,28 +154,28 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2100237481715347495",
-          "text": "We view the report of a potential partnership between SK Hynix and Intel as highly credible. Through this alliance, SK Hynix can establish U.S.-based memory chip manufacturing capacity in a more efficient and cost-effective manner, swiftly aligning with \"Made in USA\" policy mandates and market demand. Compared to building a greenfield facility from scratch, this approach bypasses cumbersome regulatory approvals and avoids the prolonged lead times and heavy resource expenditure associated with land acquisition and power and water utility infrastructure.\n\nSK Hynix in talks with Intel about deal to make memory chips in US for the first time, sources say - https://t.co/qxwpzljjZf",
-          "created_at": "2026-09-16T14:56:50+00:00",
-          "like_count": 80,
+          "id": "2100427649646764136",
+          "text": "Quick note from GEV @ MS Laguna & BE Read-across\nGEV added another 12GW of 2030–31 gas turbine supply over the summer, and basically all of it is already being contracted. They’re also already selling 2032 slots with cash commitments. That makes the cycle look longer than we would have expected a couple quarters ago. At the same time, GEV is expanding capacity targeting ~5GW/qtr in 2H26, 6GW/qtr in 2H27, and potentially 7GW/qtr in 2028, mostly within the existing factory footprint through automation.\nThis is also a useful BE read-through: Longer turbine lead times keep the time-to-power problem alive, while SOFC has its own advantages around modular deployment and potentially easier air permitting versus conventional combustion.\nBE obviously isn’t the only BTM option, but if power stays this tight into 2030–32, faster-to-permit and faster-to-deploy solutions should matter more.",
+          "created_at": "2026-09-17T03:32:30+00:00",
+          "like_count": 30,
           "retweet_count": 7,
-          "reply_count": 2,
-          "engagement_score": 96,
-          "url": "https://x.com/FundaAI/status/2100237481715347495"
+          "reply_count": 0,
+          "engagement_score": 44,
+          "url": "https://x.com/FundaAI/status/2100427649646764136"
         },
         {
-          "id": "2100352754179051984",
-          "text": "FUNDA Play’s monitoring data is consistent with the upward pricing trend at NBIS. H100 pricing has stabilized, while prices for all other instance types continue to rise. Over the past month, NeoLab has been the largest marginal buyer. Having raised funding just a few months ago, they now need to lock in capacity. Beyond NeoLab, robotics companies are also emerging as marginal buyers. However, demand from NeoLab appears less sustainable than demand from robotics companies, which is somewhat concerning.\n\nSubscribe to FUNDA’s Substack to get full access to the FUNDA Platform.https://t.co/q2jXCRRwJW",
-          "created_at": "2026-09-16T22:34:53+00:00",
-          "like_count": 46,
-          "retweet_count": 5,
-          "reply_count": 3,
-          "engagement_score": 59,
-          "url": "https://x.com/FundaAI/status/2100352754179051984",
+          "id": "2100447439891370460",
+          "text": "Go Vikram! Vikram always provides a lot of Alpha.",
+          "created_at": "2026-09-17T04:51:08+00:00",
+          "like_count": 22,
+          "retweet_count": 1,
+          "reply_count": 1,
+          "engagement_score": 25,
+          "url": "https://x.com/FundaAI/status/2100447439891370460",
           "quoted": {
-            "text": "$NBIS INCREASE ON-DEMAND GPU RATES EFFECTIVE OCTOBER 1. H100: $3.85 per GPU-hour -> $4.50 H200: $4.50 per GPU-hour -> $5.40 B200: $7.15 per GPU-hour -> $8.50 B300: $7.85 per GPU-hour -> $9.50 AMD EPYC Genoa CPU and memory rates will also increase. Intel Ice Lake CPU pricing remains unchanged.",
-            "handle": "ParadisLabs",
-            "url": "https://x.com/ParadisLabs/status/2100331348720517486"
+            "text": "I have a somewhat different view of where independent semiconductor research is heading. The problem institutional investors have isn't a shortage of research. It's the opposite. I've spoken with a number of hedge funds and institutional investors, and a recurring complaint is simply: too many reports. Their inboxes are overflowing with research they would like to read but realistically never will. AI is only going to increase that volume. So with SemiExponent, I'm building something deliberately different. Less publishing. More interaction. The institutional product is centered around direct access to semiconductor expertise: discussing technology, challenging assumptions, arguing through competing interpretations, and red-teaming an investment thesis when the underlying question is technical. In other words, not another research feed. A technical sparring partner. That model is intentionally high-touch, which also means SemiExponent will work with a relatively small number of institutional clients. I've been discussing the concept with several investment firms and am now beginning to launch it. If this sounds useful for your team, you can reach me through SemiExponent. Just leave a note with your email, I will get back to you. https://t.co/TvEVtC5i2j",
+            "handle": "vikramskr",
+            "url": "https://x.com/vikramskr/status/2100427808807997520"
           }
         }
       ]
@@ -180,7 +185,23 @@
       "name": "Dylan Patel (SemiAnalysis)",
       "domain": "ai",
       "tier": "analyst",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2100650903519080826",
+          "text": "https://t.co/3ISTUsOqie",
+          "created_at": "2026-09-17T18:19:38+00:00",
+          "like_count": 919,
+          "retweet_count": 11,
+          "reply_count": 62,
+          "engagement_score": 1003,
+          "url": "https://x.com/dylan522p/status/2100650903519080826",
+          "quoted": {
+            "text": "Indian cooking vs Chinese willingness to eat anything is one of those unmovable object vs unstoppable force situations",
+            "handle": "agrippa_dr",
+            "url": "https://x.com/agrippa_dr/status/2100421918813769940"
+          }
+        }
+      ]
     },
     {
       "handle": "a16z",
@@ -189,24 +210,24 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2100306232661991797",
-          "text": "not trying is the only guaranteed failure https://t.co/TB51IgieHH",
-          "created_at": "2026-09-16T19:30:02+00:00",
-          "like_count": 1186,
-          "retweet_count": 95,
-          "reply_count": 28,
-          "engagement_score": 1404,
-          "url": "https://x.com/a16z/status/2100306232661991797"
+          "id": "2100623802585715036",
+          "text": "Speed is a choice. From @patrickc's catalog: https://t.co/hH3Ft5V8TX",
+          "created_at": "2026-09-17T16:31:56+00:00",
+          "like_count": 457,
+          "retweet_count": 45,
+          "reply_count": 11,
+          "engagement_score": 558,
+          "url": "https://x.com/a16z/status/2100623802585715036"
         },
         {
-          "id": "2100231341086277921",
-          "text": "Lightfield co-founder and CEO Keith Peiris on killing a product with two million monthly users and rebuilding the CRM from scratch:\n\nLightfield's predecessor was an AI presentation tool growing faster than the team could buy inference to support it. Keith shut it down anyway. Nobody on the team liked the product.\n\nKeith decided he wanted to attack the CRM space, a vertical that's notoriously hard to break into. A company's record of its customers is scattered across a whole stack of systems that often contradict each other.\n\nHis bet is reconciling them into one coherent source of truth, what Lightfield calls a business world model. Every agent a team might run sits downstream of it.\n\nIn this conversation with a16z's Alex Rampell and Joe Schmidt: the office space they traded for their first 10 customers, why a CRM ended up modeled on the Facebook timeline, three attempts at pricing before one worked, and why nobody at a 40-person company has a fixed role.\n\n00:00 Intro\n01:24 Why 2 million users wasn't enough\n03:36 Why better models wouldn't have fixed it\n06:41 Reconciling the data was the real product\n08:16 How free rent bought their first 10 customers\n10:12 A CRM does 3 jobs and only 1 matters\n11:42 Autopilot CRM nobody has to update\n14:56 No more rigid data models\n17:11 How one customer modeled a whole marketplace\n18:48 Taking customers from an incumbent\n23:49 How to survive a new head of sales\n26:03 Why the CEO still uses a spreadsheet view\n30:55 Pricing models that failed before one worked\n36:23 Fixed roles make product pivots impossible\n40:02 Why slow shipping loses CRM customers\n43:17 What Silicon Valley customers are actually worth\n46:20 Why buyers need a reference who looks like them\n50:40 What to ignore during a pivot\n\nYouTube: https://t.co/mcMyqOBMla\n\n@keithpeiris @lightfld @arampell @joeschmidtiv",
-          "created_at": "2026-09-16T14:32:26+00:00",
-          "like_count": 106,
-          "retweet_count": 20,
-          "reply_count": 20,
-          "engagement_score": 166,
-          "url": "https://x.com/a16z/status/2100231341086277921"
+          "id": "2100655721905803571",
+          "text": ".@fal's Gorkem Yurtseven and Batuhan Taskaya on making an open source video model 35x faster, and what Hollywood wanted after they built it:\n\nLast month, MiniMax released H3, an open source video model. fal rebuilt it - they cut down the steps the model takes to make a video, rewrote the code under each stage, and got the GPUs to 70-80% of their theoretical ceiling instead of their usual 30-40%. No quality loss.\n\nVideo now generates faster than you can film it. The models have gotten so cheap and fast that end users aren't even asking for improvements in either category anymore. The gap has moved to quality, or how closely the model follows the prompt.\n\nHollywood wasn't a customer a year ago and is now fal's fastest growing segment. Studios love it for the little things - extending a shot, moving the camera, changing the lighting. Those edits land 80-90% of the time. fal is chasing 99.9%.\n\nIn this conversation with a16z's Jennifer Li:\n\n00:00 Intro\n01:45 The first open model worth rebuilding\n03:45 The industry ran out of compute in April\n06:25 35x faster without losing quality\n11:05 5s of video generated in 1.5s\n14:25 The weekend fal dropped everything\n16:15 3 viral projects nobody planned\n18:20 Teaching a video model to remember\n20:25 An hour of video that's consistent\n23:30 2x the usage of other models in 3 weeks\n26:35 The case for giving video away for free\n29:00 Blender sketch in, finished shot out\n30:40 Chasing 99.9% reliability\n34:15 Hollywood, fal's fastest-growing customer\n36:50 Why studios wouldn't touch it until now\n\nYouTube: https://t.co/gY1OotPW4j\n\n@gorkem @isidentical @fal @JenniferHli",
+          "created_at": "2026-09-17T18:38:47+00:00",
+          "like_count": 86,
+          "retweet_count": 16,
+          "reply_count": 12,
+          "engagement_score": 130,
+          "url": "https://x.com/a16z/status/2100655721905803571"
         }
       ]
     },
@@ -215,18 +236,7 @@
       "name": "Latent Space (podcast)",
       "domain": "ai",
       "tier": "analyst",
-      "tweets": [
-        {
-          "id": "2100313776113451389",
-          "text": "Underwriting Superintelligence: AIUC-1, Agent Audits, Insurance, & the Watchdogs of AGI https://t.co/F5kIJL26n6\n\nAI Underwriting Company cofounder @RuneKvist explains why risk and trust may become the real bottlenecks to AI adoption, how AIUC stress-tests agents for jailbreaks, hallucinations, and data leaks, why standards and insurance need to evolve together, what happens when a $20 AI agent creates $200M of liability, and why even after AGI there’s one job the labs can never do themselves: be their own watchdog.",
-          "created_at": "2026-09-16T20:00:00+00:00",
-          "like_count": 15,
-          "retweet_count": 2,
-          "reply_count": 5,
-          "engagement_score": 24,
-          "url": "https://x.com/latentspacepod/status/2100313776113451389"
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "artificialanalyze",
@@ -245,20 +255,20 @@
           "id": "2100424287161098728",
           "text": "All-In Summit: Brad Gerstner\n\n-- Who’s Paying for AI CapEx?\n\n-- Semis Eat the Nasdaq\n\n-- Not Firing, Just Not Hiring\n\n-- The Gigawatt Gap\n\n++ much more!\n\n(0:00) Welcome @altcap \n\n(1:01) Trump Accounts, Every Child a Capitalist & The CAC Scan\n\n(5:07) Can AI revenue pay for the CapEx?\n\n(8:53) The Build Out Issue: Gigawatts, TAM, Token Growth, and Margin Expansion\n\n(12:30) The risks: AI regulation, the nuclear precedent, power limits, and rising rates",
           "created_at": "2026-09-17T03:19:08+00:00",
-          "like_count": 259,
-          "retweet_count": 31,
-          "reply_count": 24,
-          "engagement_score": 345,
+          "like_count": 600,
+          "retweet_count": 59,
+          "reply_count": 32,
+          "engagement_score": 750,
           "url": "https://x.com/theallinpod/status/2100424287161098728"
         },
         {
           "id": "2100425100357185877",
           "text": "All-In Summit is officially wrapped. Three full days of unexpected event experiences, incredible partner activations, and a lifetime of connections made right here in this room. \n\nThank you to our presenting sponsor IREN (@IREN_Ltd) We’ll see you all next year. #AllInSummit https://t.co/dVzc0FvC3S",
           "created_at": "2026-09-17T03:22:22+00:00",
-          "like_count": 272,
-          "retweet_count": 21,
-          "reply_count": 10,
-          "engagement_score": 324,
+          "like_count": 596,
+          "retweet_count": 41,
+          "reply_count": 18,
+          "engagement_score": 696,
           "url": "https://x.com/theallinpod/status/2100425100357185877"
         }
       ]
@@ -277,14 +287,29 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2100371680707440954",
-          "text": "Im not even that levered. Shorted $370K in $QCOM as a idiotic macro hedge right before close. https://t.co/ODuACrJMeZ",
-          "created_at": "2026-09-16T23:50:06+00:00",
-          "like_count": 90,
-          "retweet_count": 1,
-          "reply_count": 7,
-          "engagement_score": 99,
-          "url": "https://x.com/insane_analyst/status/2100371680707440954"
+          "id": "2100624215573692583",
+          "text": "Someone emailed me AI slop but glad I read this one. Most recent $COHR 10-K risk factor seems to be an admission on bad ROI on InP capacity expensive due to bad 6in yield. https://t.co/mifm8sq2bo",
+          "created_at": "2026-09-17T16:33:35+00:00",
+          "like_count": 77,
+          "retweet_count": 4,
+          "reply_count": 8,
+          "engagement_score": 93,
+          "url": "https://x.com/insane_analyst/status/2100624215573692583"
+        },
+        {
+          "id": "2100596586015494196",
+          "text": "This is SiGe not Sipho.\n\nGlofo SiGe is meh vs Tower. Gap not as bad as SiPho but still. Semtexh on Tower. Macom also on Tower I think.",
+          "created_at": "2026-09-17T14:43:47+00:00",
+          "like_count": 79,
+          "retweet_count": 3,
+          "reply_count": 6,
+          "engagement_score": 91,
+          "url": "https://x.com/insane_analyst/status/2100596586015494196",
+          "quoted": {
+            "text": "$GFS & $MRVL EXPAND U.S. CAPACITY FOR AI OPTICAL NETWORKING GlobalFoundries and Marvell signed a multi-year agreement to expand silicon germanium manufacturing capacity at GF’s Burlington, Vermont facility. The added capacity will support Marvell’s next-gen pluggable optics, near-packaged optics and co-packaged optics as AI data centers push toward higher-bandwidth interconnects. GF’s current SiGe platform supports 200G-per-lane connectivity, with a roadmap toward faster generations. Financial terms were not disclosed.",
+            "handle": "wallstengine",
+            "url": "https://x.com/wallstengine/status/2100564906982650220"
+          }
         }
       ]
     },
@@ -300,28 +325,7 @@
       "name": "Naval Ravikant",
       "domain": "ai",
       "tier": "analyst",
-      "tweets": [
-        {
-          "id": "2100233897191903500",
-          "text": "The best way to pace the frontier is to hold the labs fully liable for the behavior of their models.",
-          "created_at": "2026-09-16T14:42:36+00:00",
-          "like_count": 15597,
-          "retweet_count": 1449,
-          "reply_count": 761,
-          "engagement_score": 19256,
-          "url": "https://x.com/naval/status/2100233897191903500"
-        },
-        {
-          "id": "2100249689321033731",
-          "text": "The future is more likely AIs fighting AIs (on behalf of humans) than AI fighting humanity.",
-          "created_at": "2026-09-16T15:45:21+00:00",
-          "like_count": 9498,
-          "retweet_count": 736,
-          "reply_count": 747,
-          "engagement_score": 11717,
-          "url": "https://x.com/naval/status/2100249689321033731"
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "jimkxa",
@@ -335,28 +339,7 @@
       "name": "Gavin Baker (Atreides Management)",
       "domain": "invest",
       "tier": "analyst",
-      "tweets": [
-        {
-          "id": "2100240010695827959",
-          "text": "Extraordinary share gains for OpenAI vs. Anthropic over the last two months.\n\nPer Openrouter, OpenAI has gone from 20% share to 50% share vs. Anthropic (meaning Anthropic has gone from 80% to 50%) since June. https://t.co/zQEq4juBte",
-          "created_at": "2026-09-16T15:06:53+00:00",
-          "like_count": 2961,
-          "retweet_count": 225,
-          "reply_count": 189,
-          "engagement_score": 3600,
-          "url": "https://x.com/GavinSBaker/status/2100240010695827959"
-        },
-        {
-          "id": "2100179389975580968",
-          "text": "More on AI pacing:\n\nSarah Friar CFO of OpenAI yesterday on CNBC: “from where I sit today there is so much opportunity to drive growth that I am still highly focused on getting more compute to keep that flywheel going.”\n\nSachin Katti VP of Compute Strategy at OpenAI @sk7037 yesterday: “The way we will make sure frontier models are safe and aligned is by spending compute. So the counterintuitive point is that we’ll need even more compute to make sure future models are more safe and aligned.”\n\nIf you thought “pacing” was negative for AI infrastructure demand, think again. Almost as bullish as open-weight AI taking share but not quite.",
-          "created_at": "2026-09-16T11:06:00+00:00",
-          "like_count": 1871,
-          "retweet_count": 199,
-          "reply_count": 99,
-          "engagement_score": 2368,
-          "url": "https://x.com/GavinSBaker/status/2100179389975580968"
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "jietang",
@@ -368,10 +351,10 @@
           "id": "2100482019088060470",
           "text": "Two weeks.\n\nThat's how long it took to go from GLM-5.3-Flash's first run on domestic accelerators to serving all of its production traffic, with 3.2× end-to-end throughput along the way.\n\nWhat I keep thinking about is who did much of the work: an Infra Agent powered by GLM-5.3.\n\nA model helping optimize the system that serves it.\n\nThe conditions were hard. Limited memory and interconnect bandwidth. 1M-token context. Multimodal requests. An immature software stack where kernels were missing and documentation was often guesswork. Every optimization was a trade: compute for memory (ReplaySSM), communication for memory (intra-node tensor parallelism), precision for capacity (mixed INT8/FP8/BF16 caching), and disaggregation for scheduling freedom (Encode–Prefill–Decode).\n\nBut the most important lesson wasn't about any single optimization.\n\nWhen the agent got stuck, it was rarely because it couldn't write the code. It was because it didn't know *why* things got worse.\n\n\"Throughput down 20%\" tells you something broke. It doesn't tell you which layer, which hypothesis, or what to test next. In RL terms, it's a sparse reward with a credit assignment problem. And an end-to-end benchmark that takes hours makes exploration painfully slow.\n\nSenior engineers solve this with an implicit process reward in their heads. They know when to check the timeline, when to run a microbenchmark, and which layer's output to compare.\n\nSo we made that explicit. We call it dense feedback: layered verification interfaces the agent can call directly.\n\nCorrectness feedback: did it compute right?\nSystem behavior feedback: where did the time go?\nPerformance feedback: which option wins, under which conditions?\n\nEach signal has to be local, cheap, and objectively verifiable.\n\nThree things the agent found:\n\nFirst, precision drift in KDA's context-parallel path that grew with sequence length. The cause was TF32 rounding error compounding through chained state-matrix merges. The fix is now merged upstream in Flash Linear Attention (PR #1180).\n\nSecond, KV transfer never overlapped with DeepEP dispatch. The agent followed the call chain across the Python/C++ boundary and found that the intranode path never released the GIL. After the fix, transfer overhead fell from over 30% to under 1%.\n\nThird, a decode kernel recomputing the same normalization four times because of how it was chunked. The agent restructured it and got a 1.71× speedup. The idea came from \"optimization skeletons\" it had distilled by reading existing kernels across SGLang, FLA, and DeepGEMM.\n\nTo be clear about the boundaries: humans still defined the goals, built the feedback environment, and reviewed every high-risk change.\n\nBut the engineer's role is changing, from the person who solves the problem to the person who designs the feedback.\n\nThere's a deeper implication too. A layered, verifiable feedback environment built on real infrastructure tasks is exactly what training the next generation of models needs most. Every task the agent completes can become training ground for its successor.\n\nWe are still far from recursive self-improvement.\n\nBut the smallest loop now exists.\n\nThe model optimizes the system. The system serves the model.",
           "created_at": "2026-09-17T07:08:33+00:00",
-          "like_count": 610,
-          "retweet_count": 45,
-          "reply_count": 50,
-          "engagement_score": 750,
+          "like_count": 2253,
+          "retweet_count": 196,
+          "reply_count": 108,
+          "engagement_score": 2753,
           "url": "https://x.com/jietang/status/2100482019088060470",
           "quoted": {
             "text": "We’re sharing how GLM-5.3 helped build and optimize the inference infrastructure serving GLM-5.3-Flash. The system went from its first successful run to production readiness in less than two weeks, with end-to-end throughput tripling relative to the initial baseline. The key was dense feedback: local correctness tests, execution traces, microbenchmarks, and end-to-end measurements that enabled targeted hypothesis testing rather than reliance on aggregate performance metrics alone. https://t.co/yUf6OpJD7c",
@@ -395,33 +378,33 @@
       "tier": "builder",
       "tweets": [
         {
-          "id": "2100260544087535639",
-          "text": "Also today: Claude Docs, Claude Slides, and Claude Design are in every conversation.\n\nAsk Claude for a presentation and you get one you can open, edit, and export as PowerPoint or PDF. Same for a document or a design. There's no separate tool to navigate to. They're just in the chat.",
-          "created_at": "2026-09-16T16:28:29+00:00",
-          "like_count": 2334,
-          "retweet_count": 135,
-          "reply_count": 131,
-          "engagement_score": 2735,
-          "url": "https://x.com/bcherny/status/2100260544087535639",
+          "id": "2100669598995816511",
+          "text": "Projects have changed not only how I interact with Claude but how I code.\n\nI stopped managing sessions. I just send thoughts as they come, Claude splits them into threads, and the project remembers how I work. It's where I do a ton of my coding now.\n\n[screenshot: my actual prompts for claude code cli yesterday]",
+          "created_at": "2026-09-17T19:33:55+00:00",
+          "like_count": 1887,
+          "retweet_count": 68,
+          "reply_count": 188,
+          "engagement_score": 2211,
+          "url": "https://x.com/bcherny/status/2100669598995816511",
           "quoted": {
-            "text": "You can also now make decks, docs, and designs in your conversation. Draft the one-pager in Claude Docs, turn it into a deck with Claude Slides, and mock up a matching visual in Claude Design, all from one place. https://t.co/Y0JaJGT3G8",
-            "handle": "claudeai",
-            "url": "https://x.com/claudeai/status/2100258492590207079"
+            "text": "Today we're rolling out Projects in Claude Code on desktop and web. A project is one conversation with Claude. It splits the work into threads itself, runs them as parallel cloud sessions, passes context between them, and keeps going when you leave. In beta for select users. https://t.co/j4k7rludhV",
+            "handle": "ClaudeDevs",
+            "url": "https://x.com/ClaudeDevs/status/2100633571543367691"
           }
         },
         {
-          "id": "2100259951398789487",
-          "text": "Claude Code showed that AI could do real work, not just answer questions. Developers hand Claude a feature, come back to shipped code. That's where much of the industry's serious engineering runs now.\n\nCowork proved knowledge workers could do the same: hand Claude the brief, come back to finished files.\n\nToday, chat and Cowork start merging into one Claude. The direction: one Claude that carries context across everything you're working on, wherever you are. Simple enough for everyone to access Claude's full capabilities.\n\nI've been using this experience every day for the last few weeks, and it feels awesome. Simpler, faster, and more powerful.\n\nWe're rolling this out slowly. We'll be fine-tuning the experience as we go to ensure it is fast and reliable. Can't wait to hear what you think.",
-          "created_at": "2026-09-16T16:26:08+00:00",
-          "like_count": 1422,
-          "retweet_count": 65,
-          "reply_count": 164,
-          "engagement_score": 1716,
-          "url": "https://x.com/bcherny/status/2100259951398789487",
+          "id": "2100639991244427490",
+          "text": "Projects are how I write a lot of my code these days. Really excited for everyone to try the new experience! Rolling out now",
+          "created_at": "2026-09-17T17:36:16+00:00",
+          "like_count": 1699,
+          "retweet_count": 44,
+          "reply_count": 118,
+          "engagement_score": 1905,
+          "url": "https://x.com/bcherny/status/2100639991244427490",
           "quoted": {
-            "text": "Claude Cowork and chat are merging into one Claude. Ask a quick question or hand over a report, and Claude takes it from there, even after you close your laptop. If something's unclear, Claude asks—you keep the final say. Rolling out to Pro and Max over the next few weeks. https://t.co/87HC2lUjxG",
+            "text": "Projects now run from one conversation, starting in Claude Code. You describe what needs doing, and Claude directs parallel threads that keep working after you close your laptop. In beta today for select Pro and Max users in cloud sessions; coming to all Claude users soon. https://t.co/GYzoKbxS23",
             "handle": "claudeai",
-            "url": "https://x.com/claudeai/status/2100258490740539730"
+            "url": "https://x.com/claudeai/status/2100632677904744716"
           }
         }
       ]
@@ -433,18 +416,18 @@
       "tier": "builder",
       "tweets": [
         {
-          "id": "2100260655312089562",
-          "text": "Today, we are merging Claude Cowork and chat to simplify how you use Claude!\n\nWe are also integrating Claude Design so that you can ask Claude to make a Slide, Design, or Doc without needing to switch tabs or apps.\n\nMany of you shared that you didn't want to choose which Claude product to use for any task. As Claude models have become more capable, we've found that Claude can handle the routing for you. Based on your prompt, Claude will decide whether to give a quick answer or do deeper agentic work, and what kind of output best fits the task.\n \nYou're in control the whole time: you can still stop, redirect, or exert finer control over Claude's effort or approach.\n \nGive it a try and let us know what you think. We're rolling this out slowly over the next few weeks to get it right.",
-          "created_at": "2026-09-16T16:28:55+00:00",
-          "like_count": 1253,
-          "retweet_count": 57,
-          "reply_count": 111,
-          "engagement_score": 1478,
-          "url": "https://x.com/_catwu/status/2100260655312089562",
+          "id": "2100641163120423057",
+          "text": "In the new Projects experience, Claude coordinates all of your sessions. \n\nI've been using it every day since it lets me operate at a higher level of abstraction. I fire off a batch of tasks and move on. Claude has context on everything I'm working on and can give me an aggregated status update whenever I ask. It also has long-lived memory that evolves as I use it. \n\nWe're rolling this out over the coming weeks. Let me know what you think!",
+          "created_at": "2026-09-17T17:40:55+00:00",
+          "like_count": 289,
+          "retweet_count": 10,
+          "reply_count": 33,
+          "engagement_score": 342,
+          "url": "https://x.com/_catwu/status/2100641163120423057",
           "quoted": {
-            "text": "Claude Cowork and chat are merging into one Claude. Ask a quick question or hand over a report, and Claude takes it from there, even after you close your laptop. If something's unclear, Claude asks—you keep the final say. Rolling out to Pro and Max over the next few weeks. https://t.co/87HC2lUjxG",
-            "handle": "claudeai",
-            "url": "https://x.com/claudeai/status/2100258490740539730"
+            "text": "Today we're rolling out Projects in Claude Code on desktop and web. A project is one conversation with Claude. It splits the work into threads itself, runs them as parallel cloud sessions, passes context between them, and keeps going when you leave. In beta for select users. https://t.co/j4k7rludhV",
+            "handle": "ClaudeDevs",
+            "url": "https://x.com/ClaudeDevs/status/2100633571543367691"
           }
         }
       ]
@@ -454,23 +437,7 @@
       "name": "Alex Albert (Anthropic)",
       "domain": "ai",
       "tier": "builder",
-      "tweets": [
-        {
-          "id": "2100295757953917120",
-          "text": "The team did an amazing job with this merge. The resulting UX feels so much better than chat or Cowork did on their own.\n\nAnd the new slides/docs/design integrations work very well.",
-          "created_at": "2026-09-16T18:48:24+00:00",
-          "like_count": 187,
-          "retweet_count": 5,
-          "reply_count": 14,
-          "engagement_score": 211,
-          "url": "https://x.com/alexalbert__/status/2100295757953917120",
-          "quoted": {
-            "text": "Claude Cowork and chat are merging into one Claude. Ask a quick question or hand over a report, and Claude takes it from there, even after you close your laptop. If something's unclear, Claude asks—you keep the final say. Rolling out to Pro and Max over the next few weeks. https://t.co/87HC2lUjxG",
-            "handle": "claudeai",
-            "url": "https://x.com/claudeai/status/2100258490740539730"
-          }
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "rauchg",
@@ -479,38 +446,38 @@
       "tier": "builder",
       "tweets": [
         {
-          "id": "2100307962262872105",
-          "text": "We're seeing extraordinary results from @typesafeai. Default mode in 𝚏𝚡 is auto, with a safety reviewer analyzing every command.\n\nThat reviewer runs on GPT Luna today. Jev is up to 18x faster (p95) *and* more accurate. It's coming to @vercel AI Gateway and likely new default.",
-          "created_at": "2026-09-16T19:36:54+00:00",
-          "like_count": 3028,
-          "retweet_count": 129,
-          "reply_count": 104,
-          "engagement_score": 3390,
-          "url": "https://x.com/rauchg/status/2100307962262872105",
+          "id": "2100698591417499972",
+          "text": "It's likely that more software will be produced next year than in all of the history of computing. It took Vercel 10 years to get to 1 billion deployments, but then we added another 1.4 billion in the last 10 months alone.\n\nSome of this will be tiny, personal and even disposable software. An HTML file with some javascript (\"artifacts\"), a report, a pricing calculator, a slide deck, all the way to sophisticated apps, agents and platforms.\n\nDeployment speed is one of our obsessions. We've brought down the time to deploy, upload, assign a domain and globally propagate an artifact to 1 second.\n\nThis is quite a feat considering we serve these artifacts with uncompromising performance and security. This sub-second deployments include our global CDN, Firewall, immutable deployments, domain assignment, observability, rollbacks…\n\nAnd we're not done yet. Follow @melkeydev for more.",
+          "created_at": "2026-09-17T21:29:07+00:00",
+          "like_count": 270,
+          "retweet_count": 15,
+          "reply_count": 33,
+          "engagement_score": 333,
+          "url": "https://x.com/rauchg/status/2100698591417499972",
           "quoted": {
-            "text": "We benchmarked fx auto mode (safety) classifier with @typesafeai's Jev. tl;dr: ~5-18x faster and more accurate than 𝚐𝚙𝚝-𝟻.𝟼-𝚕𝚞𝚗𝚊, our current top choice https://t.co/3G8tpRz7AG",
-            "handle": "fazxes",
-            "url": "https://x.com/fazxes/status/2100300097695232164"
+            "text": "You and your coding agent can now use the CLI to deploy static artifacts in less than one second. ▲ ~/ vercel deploy ./my-static-site --prod https://t.co/BBFvC8hNqM",
+            "handle": "vercel_dev",
+            "url": "https://x.com/vercel_dev/status/2100695928093167698"
           }
         },
         {
-          "id": "2100253419353371020",
-          "text": "Secure builds (in-VPC / VPN / static IP) are now 64% faster to start.\n\nGiven how common data access at deployment time is on Vercel (e.g: for pre-rendering), we developed a capability for our build microVMs to join secure networks. This is now way faster!",
-          "created_at": "2026-09-16T16:00:10+00:00",
-          "like_count": 118,
+          "id": "2100682030170489160",
+          "text": "This is really cool. When you pressure your agent to ship a hotfix really fast, it can now 𝚟𝚎𝚛𝚌𝚎𝚕 --𝚝𝚞𝚛𝚋𝚘 --𝚙𝚛𝚘𝚍 😊\n\nIt'll use the fastest available build machine. h/t @garberchov for tweeting this idea to us",
+          "created_at": "2026-09-17T20:23:19+00:00",
+          "like_count": 68,
           "retweet_count": 2,
-          "reply_count": 26,
-          "engagement_score": 148,
-          "url": "https://x.com/rauchg/status/2100253419353371020",
+          "reply_count": 15,
+          "engagement_score": 87,
+          "url": "https://x.com/rauchg/status/2100682030170489160",
           "quoted": {
-            "text": "Secure Compute and Static IP builds now start 64% faster. Builds used to boot a fresh container with the network attached. They now claim a prewarmed one and attach it on the way in. https://t.co/qNzStgMcpD",
+            "text": "Turbo build machines can now be enabled for a single deployment. ▲ ~/ 𝚟𝚌 𝚍𝚎𝚙𝚕𝚘𝚢 --𝚝𝚞𝚛𝚋𝚘 One build: 30 vCPUs and 60 GB of memory. Project build machine settings are untouched. https://t.co/76NS2kyDZw",
             "handle": "vercel_dev",
-            "url": "https://x.com/vercel_dev/status/2100248485274775840"
+            "url": "https://x.com/vercel_dev/status/2100681322889191852"
           }
         }
       ]
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-17T08:36:37.223117+00:00"
+  "generated_at": "2026-09-18T01:41:12.898389+00:00"
 }
