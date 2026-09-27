@@ -26,44 +26,8 @@
       "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
       "published": "2026-09-25T00:00:00+00:00",
       "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills"
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "published": "2026-09-24T16:20:39+00:00",
-      "summary": "Gemini 3.8 Live with Live Avatar brings near real-time visual presence to Gemini’s conversational AI."
-    },
-    {
-      "id": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg",
-      "url": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
-      "published": "2026-09-24T10:00:00+00:00",
-      "summary": "An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures."
-    },
-    {
-      "id": "https://www.anthropic.com/research/project-swap",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Project Swap: What happens when agents trade for us?",
-      "url": "https://www.anthropic.com/research/project-swap",
-      "published": "2026-09-24T00:00:00+00:00",
-      "summary": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes."
-    },
-    {
-      "id": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Claude discovers a novel enzyme system",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "published": "2026-09-23T00:00:00+00:00",
-      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-25T22:09:16.396764+00:00"
+  "generated_at": "2026-09-27T00:13:14.661840+00:00"
 }
