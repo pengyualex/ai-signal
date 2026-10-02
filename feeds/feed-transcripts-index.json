@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-10-01T07:26:14.317328+00:00",
+  "generated_at": "2026-10-02T07:15:44.523485+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "bcecac98-430a-4361-9737-bfebe7ca9ad5",
+      "link": "https://deepmind.com/podcast",
+      "channel": "Google DeepMind Podcast",
+      "title": "From deepfakes to DNA: the science of watermarking AI",
+      "pub_date": "2026-10-01T16:38:11+00:00",
+      "transcript_path": "feeds/transcripts/bc702da163310c2a84268fc5.txt",
+      "transcript_chars": 18566,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-10-02T07:14:45.868742+00:00",
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
+    },
+    {
+      "guid": "https://www.dwarkesh.com/p/si-sheppard",
+      "link": "https://www.dwarkesh.com/p/si-sheppard",
+      "channel": "Dwarkesh Patel",
+      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
+      "pub_date": "2026-10-01T15:28:28+00:00",
+      "transcript_path": "feeds/transcripts/7f72fee2f40583e7417be354.txt",
+      "transcript_chars": 100962,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-10-02T07:14:45.868742+00:00",
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
+    },
     {
       "guid": "yt:NBRcatReLD4",
       "link": "https://www.youtube.com/watch?v=NBRcatReLD4",
@@ -12,8 +38,8 @@
       "transcript_chars": 41343,
       "transcript_source": "youtube_transcript_api",
       "cached_at": "2026-09-30T07:00:02.505987+00:00",
-      "last_seen_at": "2026-10-01T07:26:14.317328+00:00",
-      "expires_at": "2026-10-15T07:26:14.317328+00:00"
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
     },
     {
       "guid": "yt:djDt8J2_YVs",
@@ -25,8 +51,8 @@
       "transcript_chars": 72960,
       "transcript_source": "youtube_transcript_api",
       "cached_at": "2026-09-30T07:00:02.505987+00:00",
-      "last_seen_at": "2026-10-01T07:26:14.317328+00:00",
-      "expires_at": "2026-10-15T07:26:14.317328+00:00"
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
     },
     {
       "guid": "cbcb6353-9937-4c25-9f83-93e1f096d3e6",
@@ -38,8 +64,8 @@
       "transcript_chars": 4210,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-24T01:37:46.568527+00:00",
-      "last_seen_at": "2026-10-01T07:26:14.317328+00:00",
-      "expires_at": "2026-10-15T07:26:14.317328+00:00"
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
     },
     {
       "guid": "ebe0e737-5995-476f-8d20-673400e3ec13",
@@ -51,8 +77,8 @@
       "transcript_chars": 3882,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-23T01:37:11.956870+00:00",
-      "last_seen_at": "2026-10-01T07:26:14.317328+00:00",
-      "expires_at": "2026-10-15T07:26:14.317328+00:00"
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
     },
     {
       "guid": "053073fc-e856-48e9-9312-74082d4761ee",
@@ -64,8 +90,8 @@
       "transcript_chars": 3819,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-22T01:37:35.641465+00:00",
-      "last_seen_at": "2026-10-01T07:26:14.317328+00:00",
-      "expires_at": "2026-10-15T07:26:14.317328+00:00"
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
     },
     {
       "guid": "a2a542d5-2feb-441a-a523-910e16c2d193",
@@ -77,21 +103,8 @@
       "transcript_chars": 3959,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-21T01:38:29.824795+00:00",
-      "last_seen_at": "2026-10-01T07:26:14.317328+00:00",
-      "expires_at": "2026-10-15T07:26:14.317328+00:00"
-    },
-    {
-      "guid": "https://www.dwarkesh.com/p/noam-brown",
-      "link": "https://www.dwarkesh.com/p/noam-brown",
-      "channel": "Dwarkesh Patel",
-      "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
-      "pub_date": "2026-09-17T15:38:13+00:00",
-      "transcript_path": "feeds/transcripts/88a1ae465c7634d7b7da83a9.txt",
-      "transcript_chars": 79938,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-18T01:36:16.383884+00:00",
-      "last_seen_at": "2026-09-18T01:36:55.719703+00:00",
-      "expires_at": "2026-10-02T01:36:55.719703+00:00"
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
     },
     {
       "guid": "f225e979-78f3-4508-95fe-79293b3ff678",
@@ -103,21 +116,8 @@
       "transcript_chars": 3854,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-18T01:36:16.383884+00:00",
-      "last_seen_at": "2026-10-01T07:26:14.317328+00:00",
-      "expires_at": "2026-10-15T07:26:14.317328+00:00"
-    },
-    {
-      "guid": "https://lexfridman.com/?p=6554",
-      "link": "https://lexfridman.com/andrew-scull/?utm_source=rss&utm_medium=rss&utm_campaign=andrew-scull",
-      "channel": "Lex Fridman",
-      "title": "#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung",
-      "pub_date": "2026-09-17T00:40:49+00:00",
-      "transcript_path": "feeds/transcripts/64bf58bcf5dae9d633cdd0e8.txt",
-      "transcript_chars": 181518,
-      "transcript_source": "description_transcript_link",
-      "cached_at": "2026-09-18T01:36:16.383884+00:00",
-      "last_seen_at": "2026-09-18T01:36:55.719703+00:00",
-      "expires_at": "2026-10-02T01:36:55.719703+00:00"
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
     },
     {
       "guid": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
@@ -129,8 +129,8 @@
       "transcript_chars": 4027,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-18T01:36:16.383884+00:00",
-      "last_seen_at": "2026-10-01T07:26:14.317328+00:00",
-      "expires_at": "2026-10-15T07:26:14.317328+00:00"
+      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
+      "expires_at": "2026-10-16T07:15:44.523485+00:00"
     }
   ]
 }
