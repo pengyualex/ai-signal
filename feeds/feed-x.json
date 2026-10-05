@@ -8,54 +8,250 @@
       "tweets": []
     },
     {
-      "handle": "swyx",
-      "name": "Swyx (Shawn Wang)",
+      "handle": "sama",
+      "name": "Sam Altman",
+      "domain": "ai",
+      "tier": "exec",
+      "tweets": []
+    },
+    {
+      "handle": "DarioAmodei",
+      "name": "Dario Amodei",
+      "domain": "ai",
+      "tier": "exec",
+      "tweets": []
+    },
+    {
+      "handle": "demishassabis",
+      "name": "Demis Hassabis (Google DeepMind)",
+      "domain": "ai",
+      "tier": "exec",
+      "tweets": [
+        {
+          "id": "2106850913474482566",
+          "text": "Very proud of the impact of all our work using AI to accelerate science and medicine for the benefit of society.",
+          "created_at": "2026-10-04T20:56:15+00:00",
+          "like_count": 2596,
+          "retweet_count": 180,
+          "reply_count": 135,
+          "engagement_score": 3091,
+          "url": "https://x.com/demishassabis/status/2106850913474482566",
+          "quoted": {
+            "text": "Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so: - Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to researchers. - Billions of decisions depend on weather predictions so we introduced WeatherNext 3, our most accurate and capable global weather AI model to date. - We published AI & Economy ATLAS, a comprehensive open-access look at how people are using AI globally. - AI has enabled extraordinary advances in language translation. Today our services are available in nearly 300 languages, spoken by 7B people We’re focusing our efforts on four key areas: health, natural disaster and weather resilience, learning, and economic opportunity. https://t.co/DDKcUTYj54",
+            "handle": "sundarpichai",
+            "url": "https://x.com/sundarpichai/status/2099911653395685765"
+          }
+        }
+      ]
+    },
+    {
+      "handle": "JensenHuang",
+      "name": "Jensen Huang (NVIDIA CEO)",
+      "domain": "ai",
+      "tier": "exec",
+      "tweets": []
+    },
+    {
+      "handle": "joshwoodward",
+      "name": "Josh Woodward (Google Labs)",
+      "domain": "ai",
+      "tier": "builder",
+      "tweets": []
+    },
+    {
+      "handle": "markgurman",
+      "name": "Mark Gurman (Bloomberg)",
       "domain": "ai",
       "tier": "analyst",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2106755367015449040",
+          "text": "Since becoming CEO, he’s immersed himself in the industrial design and human interface teams. People familiar with the department say he works hands-on in the studio several times a week, sometimes visiting multiple times a day. Cook typically visited for about an hour monthly.",
+          "created_at": "2026-10-04T14:36:35+00:00",
+          "like_count": 4220,
+          "retweet_count": 144,
+          "reply_count": 68,
+          "engagement_score": 4576,
+          "url": "https://x.com/markgurman/status/2106755367015449040",
+          "quoted": {
+            "text": "Power On: After years without a design chief overseeing both its hardware and software design teams, new Apple CEO John Ternus has found one: himself. https://t.co/Q1wCIzdXvO",
+            "handle": "markgurman",
+            "url": "https://x.com/markgurman/status/2106753410255241573"
+          }
+        },
+        {
+          "id": "2106755888229031986",
+          "text": "Apple’s touch-screen and OLED MacBook Pro has one more thing: they are lighter — Significantly lighter. Apple has reengineered the machine’s interior, miniaturizing parts and rearranging components to make the computer much easier to carry. https://t.co/N2OcraXKUl",
+          "created_at": "2026-10-04T14:38:40+00:00",
+          "like_count": 3239,
+          "retweet_count": 118,
+          "reply_count": 87,
+          "engagement_score": 3562,
+          "url": "https://x.com/markgurman/status/2106755888229031986"
+        }
+      ]
+    },
+    {
+      "handle": "sssjeffpu",
+      "name": "Jeff Pu (GF Securities)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2106942994591174685",
+          "text": "Summary of UMC 2303 TT note on market worries vs. our view re-rating \n\n• UMC share price weak on worries over “no price hike in 2H26” • We see 2H26 hikes are for selective customers (e.g. MTK 8”).\n→ The broad-based hikes to be in 1Q27 (10-30%). \n\n⬆️ Raise TP to NT$215 : Meaningful re-rating path into 2H26–2028\n☕️ 2H26–2027: Profitability optimization on Higher UTR + price hikes + improving mix • 12” UTR → ~93% by end-2026 (Novatek/Samsung LSI 22/28nm + Apple Mac) • 8” UTR → ~90% by end-2026, full loading by 2H27 • Pricing momentum extends into 1H27 (10–30% across nodes)\n2028\n\n⬆️new growth phase from 2028 • Asset-light FinFET 12nm model , with Apple DDIC likely be the key driver  • Optical full-solution model (SiPh/TFLN + interposer/advanced packaging) - TFLN EPS contribution of NT&0.7/NT$1.6 in 27/28. \n\n💰 EPS lifted and target multiple to 25x 2027E EPS. Solid FCF + dividend yields intact.\n\n#UMC #Optical #TFLN",
+          "created_at": "2026-10-05T03:02:09+00:00",
+          "like_count": 38,
+          "retweet_count": 2,
+          "reply_count": 0,
+          "engagement_score": 42,
+          "url": "https://x.com/sssjeffpu/status/2106942994591174685"
+        },
+        {
+          "id": "2106952553779126738",
+          "text": "Summary of Thoughts on PTFE vs. HC  \n\n✍️ PTFE hybrid still the most likely PCB solution for Nvidia’s VR300 NVL576 switch board\n• We est. HC hybrid (HC + ABF/M9) recently passed SI testing and is ~3 months behind PTFE hybrid in the qualification — has not yet entered PCB MP testing\n• Final material decision expected by end-26. We think Leading Chinese PCB player has already achieved meaningful yields on the PTFE hybrid\n• Remain constructive on PTFE for high-end/high-speed AI PCBs; any HC adoption would likely be transitional\n\n#PCB #PTFE",
+          "created_at": "2026-10-05T03:40:08+00:00",
+          "like_count": 36,
+          "retweet_count": 2,
+          "reply_count": 1,
+          "engagement_score": 41,
+          "url": "https://x.com/sssjeffpu/status/2106952553779126738"
+        }
+      ]
+    },
+    {
+      "handle": "jukan05",
+      "name": "Jukan (Citrini Research / SemiconSam)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2106910342983057576",
+          "text": "SPCX is aggressively pushing reverse engineering to get around bottlenecks...\n\nRacks, chillers, etc...\n\nSo they're going to vertically integrate everything they possibly can.\n\nHow do they get around patents and IP with this? Don't they get sued? https://t.co/gLpIxqDP5C",
+          "created_at": "2026-10-05T00:52:24+00:00",
+          "like_count": 966,
+          "retweet_count": 54,
+          "reply_count": 52,
+          "engagement_score": 1126,
+          "url": "https://x.com/jukan05/status/2106910342983057576",
+          "quoted": {
+            "text": "Apparently 60% of $SPCX's 10GW goes to its own demand, and only 40% is for external customers. Could it be because Grok Bot has been a hit? https://t.co/QduPTCCOvH",
+            "handle": "jukan05",
+            "url": "https://x.com/jukan05/status/2106907946890457304"
+          }
+        },
+        {
+          "id": "2106909462141542687",
+          "text": "WTF. SPCX is developing its own optical fiber too? https://t.co/AOydnfmRwI",
+          "created_at": "2026-10-05T00:48:54+00:00",
+          "like_count": 938,
+          "retweet_count": 50,
+          "reply_count": 43,
+          "engagement_score": 1081,
+          "url": "https://x.com/jukan05/status/2106909462141542687",
+          "quoted": {
+            "text": "Apparently 60% of $SPCX's 10GW goes to its own demand, and only 40% is for external customers. Could it be because Grok Bot has been a hit? https://t.co/QduPTCCOvH",
+            "handle": "jukan05",
+            "url": "https://x.com/jukan05/status/2106907946890457304"
+          }
+        }
+      ]
+    },
+    {
+      "handle": "FundaAI",
+      "name": "FundaAI (AI equity research)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2106902450645156048",
+          "text": "Deep| $Ibiden: The Substrate Seller’s Market Has Only Just Begun\nHigh-end ABF capacity still failing to keep pace with the area and layer count of AI silicon\n\nIbiden’s (4062 JP) core driver remains qualified high-end ABF capacity failing to keep pace with the area and layer count of AI silicon. Intel/AMD server CPU shipments grow +36%/+62% in 2027 on new platforms 56–63% larger in substrate area, widening the CPU gap further. GPUs and EMIB-T consume the highest-end capacity: Rubin yields only 12 units per panel, TPU V9 / Trainium 4 only 4. The next pricing step falls on 27Q1 contract renewals, where new products can price above legacy agreements. We forecast FY3/27 / FY3/28 revenue growth of 35% / 30% and EPS of JPY173 / JPY267; at ~45x FY3/28E PE the shares still have rerating room, with the FY27Q2 results call the near-term catalyst.\n\n-CPU demand is back and widens the supply gap. Resident agents such as Muse push workloads back onto CPUs via headless browsers and high-frequency API calls, and Intel can currently fill only ~50% of orders; shipments have upside if capacity allows. FUNDA models Intel server CPU shipments of 26.5mn units in 2027E (+36%) and AMD 20.4mn (+62%); multiplied by substrate area 63% larger for Diamond Rapids vs. Granite Rapids and 56% larger for Venice vs. Turin, substrate-area demand grows far faster than unit count. Supply is not only limited but already allocated: tier-1 and tier-2 makers are all full as of 26Q4, lead times are 48–52 weeks, total 2027 capacity grows only ~10–15%, and a visible shortfall opens from 27Q1. Customers that did not co-fund capacity sit lower in the allocation queue. This is already visible at Ibiden: AMD substrate revenue declines sequentially through 2H FY3/27 as capacity temporarily allocated to AMD returns to Intel; this does not reflect weaker AMD demand.\n\n-GPUs and EMIB-T consume the highest-end slice of capacity. Blackwell is 73×81mm at 14 layers; Rubin 83×97mm at 18 layers, an estimated 1.8x the area; Rubin Ultra more than 2x Blackwell’s area at ~3x the price. EMIB-T is more extreme: Google TPU V9 at ~120×120mm, 24 layers with a multi-layer core, and Amazon Trainium 4 at ~120×120mm, 24 layers with a multi-layer core, each yielding only 4 substrates per panel. Even if ASIC unit growth looks modest, what truly consumes capacity is area, layer count and yield (core-stage yield on a multi-layer core drops from 99.9% to 97–98%, and a core defect can render all subsequent build-up layers worthless).\n\n-Substrate price increases continue, supporting Ibiden’s new-product pricing. This year’s increases came mainly from Taiwanese makers; Ibiden only removed its quarterly price-decline assumption and normalized Intel pricing to a fair level. Next year, with the industry shortfall in place and lead times at 48–52 weeks, the next customer contract renewals fall in 27Q1 and new products can secure better quotes; new T-glass suppliers are also expected to qualify in 27Q1, and with Chinese and Taiwanese suppliers raising prices Ibiden also has room to pass through costs, while substrates remain under 10% of chip cost so we expect customers to accept the increase. We have not yet seen specific quotes, but we think a price increase is likely.\n\nDetailed Report\nhttps://t.co/PDbu9sOj9L",
+          "created_at": "2026-10-05T00:21:03+00:00",
+          "like_count": 53,
+          "retweet_count": 9,
+          "reply_count": 2,
+          "engagement_score": 73,
+          "url": "https://x.com/FundaAI/status/2106902450645156048"
+        },
+        {
+          "id": "2106938309922750508",
+          "text": "After FUNDA published this LLM Report, 75% of the TMTB community believed that the gap between closed-source and open-weight models was widening again, a complete reversal from the prevailing view in August. Thanks to @TMTBreakout  for compiling the data. FUNDA, meanwhile, has been discussing this trend for two months.",
+          "created_at": "2026-10-05T02:43:32+00:00",
+          "like_count": 42,
+          "retweet_count": 7,
+          "reply_count": 0,
+          "engagement_score": 56,
+          "url": "https://x.com/FundaAI/status/2106938309922750508",
+          "quoted": {
+            "text": "Deep|LLM: Open-Weight Models’ Low-Cost Catch-Up Is Unlikely to Last Top labs are going to widen their lead again A succession of strong open-weight models were released this summer. Zhipu launched GLM-5.2 on June 22, followed by GLM-5.3 on August 14, a release focused solely on scaling post-training. On Zhipu’s own evaluations, GLM-5.3 matched or outperformed Fable 5 and GPT-5.6 Sol on several agentic coding tasks. Moonshot AI launched Kimi K3 on July 17. It scored 57 on the Artificial Analysis Intelligence Index, behind only Fable 5 and GPT-5.6 Sol. DeepSeek’s August 13 update to V4 Pro scored 87.9 on Terminal-Bench 2.1, nearly matching Fable 5’s 88 at roughly one-fiftieth of its cost per task. DeepSeek followed with V4.1 Flash in September. Xiaomi released MiMo-V2.6 with open weights on September 22; its Pro variant now leads the open-weight rankings on the Artificial Analysis Intelligence Index. Many in the industry now put the gap between open-weight and top proprietary models at just a few months. Some argue that distillation is not the main reason open-weight models have kept pace. We agree it is not the only reason, but it has been one of the key ones. What worries investors is whether open-weight developers can keep matching top proprietary models at a fraction of the R&D cost, and if so, how long the proprietary labs’ lead can last. That worry is feeding into AI and compute stocks, as it did after DeepSeek R1 in January 2025. We do not think open-weight developers can keep catching up this cheaply, and we expect the recent narrowing of the gap to prove temporary, as it did after R1. Distilling capabilities from top proprietary models is getting harder. The latest models from Anthropic, OpenAI and Google no longer expose their full chain of thought as plaintext, and answers and summaries alone provide weaker training signals. Open-weight developers will need to invest more in their own reinforcement learning, synthetic data generation and training environments. All require compute. Over the next few model generations, we expect the leading open-weight models to fall roughly six to twelve months behind top proprietary models again. The same thing happened in 2025: R1 briefly approached o1, then o3, Claude 4 and GPT-5 pulled ahead. Detailed Report https://t.co/9buRDYUTBS",
+            "handle": "FundaAI",
+            "url": "https://x.com/FundaAI/status/2104926674722980270"
+          }
+        }
+      ]
     },
     {
       "handle": "dylan522p",
       "name": "Dylan Patel (SemiAnalysis)",
       "domain": "ai",
       "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "a16z",
+      "name": "a16z",
+      "domain": "ai",
+      "tier": "analyst",
       "tweets": [
         {
-          "id": "2101350877932212621",
-          "text": "US supply chains for electronics suck so much\nAMD found a business opportunity in dumping US military chips for 1/4 of the cost in China. \nUS list price is $36k for this chip, with $4-5k to US companies at volume, but it's getting quoted $1k in China to crowdfunding campaigns\nAMD needs to be investigated for treason. it's not just export violations, but it's literally selling military end use components to an adversary for less than your home country....\nPharma companies are also similarly treasonous\nhttps://t.co/fylY0IJG61\nhttps://t.co/PsOxdpyl7M",
-          "created_at": "2026-09-19T16:41:05+00:00",
-          "like_count": 983,
-          "retweet_count": 57,
-          "reply_count": 75,
-          "engagement_score": 1172,
-          "url": "https://x.com/dylan522p/status/2101350877932212621"
+          "id": "2106814432273973577",
+          "text": "Ben Horowitz on the midnight phone call from Kanye that turned his CEO barbecue into a studio session:\n\n\"I answer and go, 'Ye, what's up?' He goes, 'Hey Ben, I heard you're having a barbecue tomorrow. Can I come?' I was like, 'Sure.' 'Okay, great. And I want to record in your studio.'\"\n\n\"I'm like, 'Ye, I don't have a studio.' And he goes, 'Okay.'\"\n\n\"6:30 in the morning I get a call. 'Hey Ben, I'm Kanye's engineer. I'm just calling about the specs on your studio.' I'm like, 'I don't have a studio.' He's like, 'What do you mean you don't have a studio? Kanye is expecting a studio.'\"\n\n\"I'm like, 'Who do we know who has a studio?' And they're like, 'Howie.' So we call. 'What are you doing, Howie?' 'Watching Netflix.' 'Is that studio you have portable?' 'Yeah.' Long story short, you drove the studio down to my house and we set it up in the room.\"\n\n\"A lot more crazy stuff happened. Ye was playing us the Pablo album... That was a legendary day. No doubt.\"\n\n@bhorowitz w/ @MotownIni",
+          "created_at": "2026-10-04T18:31:18+00:00",
+          "like_count": 637,
+          "retweet_count": 32,
+          "reply_count": 19,
+          "engagement_score": 720,
+          "url": "https://x.com/a16z/status/2106814432273973577"
         },
         {
-          "id": "2101192802411663519",
-          "text": "Nuke SF https://t.co/kvUBYfYTtl",
-          "created_at": "2026-09-19T06:12:57+00:00",
-          "like_count": 256,
-          "retweet_count": 1,
-          "reply_count": 11,
-          "engagement_score": 269,
-          "url": "https://x.com/dylan522p/status/2101192802411663519",
-          "quoted": {
-            "text": "People hate on SF men for group think, but every girl in SF has Tabi's now It's an epidemic",
-            "handle": "dylan522p",
-            "url": "https://x.com/dylan522p/status/2050789533055328614"
-          }
-        },
-        {
-          "id": "2101087284489781522",
-          "text": "FelonyBench is the new LMSYS",
-          "created_at": "2026-09-18T23:13:39+00:00",
-          "like_count": 113,
-          "retweet_count": 3,
-          "reply_count": 11,
-          "engagement_score": 130,
-          "url": "https://x.com/dylan522p/status/2101087284489781522"
+          "id": "2106839724698873907",
+          "text": "Ben Horowitz on the rap group he started at 18, and why hip-hop became the source material for how he thinks about business:\n\n\"I was probably 12 when Rapper's Delight came out... The first one where I was really like, 'Oh, this is gonna be very different,' was when Run-DMC's Hard Times came out. This has a whole other feel to it than anything I've heard.\"\n\n\"The thing that made me locked into hip-hop: I went to school in New York. I have this friend who I grew up with who had gotten shot in the face in some kind of gun accident, and he was blind... I'd call home to my mom: 'Is he gonna be okay?' She's like, 'He hasn't spoken to anybody since he's been shot.'\"\n\n\"Being a dumb 18-year-old kid, I was like, 'Hip-hop is so great. You can have nothing and you'll rap about your shoes. He needs that feeling.' So I would record the DJ Red Alert and Chuck Chill Out show. Everybody else would be out Saturday night, and I'd be recording. And I would send him the tapes.\"\n\n\"Then I called home to see how he's doing, and they're like, 'Well, he's talking now, but all he'll talk about is hip-hop.'\"\n\n\"When I went out that summer, we started a hip-hop group called The Blind and Def Crew. Blind and D-E-F. We rapped about being blind. I wrote most of the lyrics: 'The Blind Def Crew, you know we're fly. Three of us, but we got four eyes.'\"\n\n\"Hip-hop is very business oriented, particularly in the early days. When I started writing on business, so many of the ideas came from those old hip-hop songs. So I started putting the lyrics at the top of the post to give credit where credit was due.\"\n\n@bhorowitz w/ @MotownIni",
+          "created_at": "2026-10-04T20:11:48+00:00",
+          "like_count": 88,
+          "retweet_count": 8,
+          "reply_count": 12,
+          "engagement_score": 116,
+          "url": "https://x.com/a16z/status/2106839724698873907"
         }
       ]
+    },
+    {
+      "handle": "latentspacepod",
+      "name": "Latent Space (podcast)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "artificialanalyze",
+      "name": "Artificial Analysis",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "theallinpod",
+      "name": "The All-In Podcast",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "swyx",
+      "name": "Swyx (Shawn Wang)",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": []
     },
     {
       "handle": "insane_analyst",
@@ -64,64 +260,14 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2101490681072255204",
-          "text": "[Market Memo] Calm Before the IPO Storm https://t.co/01VyA8N18u https://t.co/ySQK77gwLN",
-          "created_at": "2026-09-20T01:56:36+00:00",
-          "like_count": 159,
-          "retweet_count": 7,
-          "reply_count": 9,
-          "engagement_score": 182,
-          "url": "https://x.com/insane_analyst/status/2101490681072255204"
-        },
-        {
-          "id": "2101510074829287572",
-          "text": "Tonight I choose alcohol.",
-          "created_at": "2026-09-20T03:13:40+00:00",
-          "like_count": 109,
-          "retweet_count": 0,
-          "reply_count": 8,
-          "engagement_score": 117,
-          "url": "https://x.com/insane_analyst/status/2101510074829287572"
-        },
-        {
-          "id": "2101537450145542237",
-          "text": "Its funny how low-effort shitposts that I cap at 2-hours effort sometimes out-perform deep-dive technical posts with 200+ hours efforts spread over months.",
-          "created_at": "2026-09-20T05:02:27+00:00",
-          "like_count": 98,
-          "retweet_count": 0,
-          "reply_count": 8,
-          "engagement_score": 106,
-          "url": "https://x.com/insane_analyst/status/2101537450145542237"
-        },
-        {
-          "id": "2101109649604759965",
-          "text": "Delay again? Why did they rush this. Just raise a other private round.",
-          "created_at": "2026-09-19T00:42:31+00:00",
-          "like_count": 61,
-          "retweet_count": 2,
-          "reply_count": 12,
-          "engagement_score": 77,
-          "url": "https://x.com/insane_analyst/status/2101109649604759965",
-          "quoted": {
-            "text": "IMO, Anthropic’s IPO is already in serious trouble. It’s effectively been pushed back until after the midterms, hasn’t it? https://t.co/i4mGbRKZsR",
-            "handle": "jukan05",
-            "url": "https://x.com/jukan05/status/2101089083284164984"
-          }
-        },
-        {
-          "id": "2101050962010132974",
-          "text": "Very interesting but probably immaterial to both stocks.\n\nARM would be fine not getting (low) ALA royalty from Qualcomm for 5 years. Rest of buisness going well. \n\nQualcomm has much bigger problems to deal with. COUGH COUGH QTL APPLE DRAM APOCALYPSE COUGH COUGH",
-          "created_at": "2026-09-18T20:49:19+00:00",
-          "like_count": 56,
-          "retweet_count": 2,
+          "id": "2106914397457445291",
+          "text": "Ibiden or I-Biden? https://t.co/FH8xq0oBj4",
+          "created_at": "2026-10-05T01:08:31+00:00",
+          "like_count": 69,
+          "retweet_count": 1,
           "reply_count": 7,
-          "engagement_score": 67,
-          "url": "https://x.com/insane_analyst/status/2101050962010132974",
-          "quoted": {
-            "text": "Thanks for asking. It is hard to gauge whether my tweets make sense to normal folks and it seems not, unless you've been following along since the start. First, to answer your specific question: No, this trial was not about damages for Arm trying to cancel Qualcomm's ALA. The overall dispute is large, as you know Arm sued Qualcomm over the Nuvia acquisition. But Qualcomm countersued Arm for customer interference (Like leaking the ALA termination notice from 2 years ago to bloomberg) and for breaching their licensing agreements (the ALA and TLA) by withholding technical deliverables. This specific trial was in front of Judge Noreika alone because under California law, whether a contract remedy is legal or an unenforceable penalty is decided by a judge, not a jury. So to clarify the post you asked about. Qualcomm has a provision in both agreements (Section 8.3) stating that if Arm fails to provide required technology deliverables (like Architecture Reference Manuals and test vectors for the ALA, or core RTL/design files for the TLA) and fails to fix it within 30 days after notice, Qualcomm's royalty payments drop to zero for 5 years. The nuance is if Arm breaches either contract, royalties drop to zero across both contracts. The two possible outcomes from Judge Noreika: 1. The Judge upholds Section 8.3 as legal: The clause stays alive. When the jury trial starts on October 5, the jury has to decide whether Arm actually breached those delivery terms and refused to cure. If the jury says yes, Qualcomm gets 5 years of zero royalties. 2. The Judge strikes Section 8.3 down as an illegal penalty: The 5-year zero-royalty remedy is completely dead. Qualcomm cannot get free royalties. Instead, if the jury later finds Arm breached, Qualcomm can only ask for \"actual damages\" (the proven, real-world dollar cost caused by the delivery delay), which is much harder to prove and subject to strict liability caps in the contract. Hope that clears it up.",
-            "handle": "JDorbal1989",
-            "url": "https://x.com/JDorbal1989/status/2101044749889339877"
-          }
+          "engagement_score": 78,
+          "url": "https://x.com/insane_analyst/status/2106914397457445291"
         }
       ]
     },
@@ -151,55 +297,11 @@
       "name": "Gavin Baker (Atreides Management)",
       "domain": "invest",
       "tier": "analyst",
-      "tweets": [
-        {
-          "id": "2101284601347928334",
-          "text": "Open models continue taking share. Not just tokens, more $ now spent on open models than OpenAI.\n\nPositive for the AI infra trade.\n\nOpen models taking share shift $ margin from the model layer to the infra and app layers.",
-          "created_at": "2026-09-19T12:17:43+00:00",
-          "like_count": 2068,
-          "retweet_count": 220,
-          "reply_count": 178,
-          "engagement_score": 2686,
-          "url": "https://x.com/GavinSBaker/status/2101284601347928334",
-          "quoted": {
-            "text": "Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2). (Do note that's the spend for inference of the model across providers (mostly in the US), not revenue going directly to the open weight labs.)",
-            "handle": "rauchg",
-            "url": "https://x.com/rauchg/status/2101186741042663579"
-          }
-        }
-      ]
-    },
-    {
-      "handle": "sama",
-      "name": "Sam Altman",
-      "domain": "ai",
-      "tier": "exec",
-      "tweets": []
-    },
-    {
-      "handle": "DarioAmodei",
-      "name": "Dario Amodei",
-      "domain": "ai",
-      "tier": "exec",
-      "tweets": []
-    },
-    {
-      "handle": "demishassabis",
-      "name": "Demis Hassabis (Google DeepMind)",
-      "domain": "ai",
-      "tier": "exec",
       "tweets": []
     },
     {
       "handle": "jietang",
       "name": "Tang Jie (Z.ai / Tsinghua)",
-      "domain": "ai",
-      "tier": "exec",
-      "tweets": []
-    },
-    {
-      "handle": "JensenHuang",
-      "name": "Jensen Huang (NVIDIA CEO)",
       "domain": "ai",
       "tier": "exec",
       "tweets": []
@@ -239,65 +341,28 @@
       "tier": "builder",
       "tweets": [
         {
-          "id": "2101116978677285241",
-          "text": "Free Jev on Vercel \nI know what I’m doing this weekend 😁",
-          "created_at": "2026-09-19T01:11:39+00:00",
-          "like_count": 3901,
-          "retweet_count": 124,
-          "reply_count": 116,
-          "engagement_score": 4265,
-          "url": "https://x.com/rauchg/status/2101116978677285241",
-          "quoted": {
-            "text": "Jev by @typesafeai is free on Vercel AI Gateway until Sept 25. Build with the fastest adopted model on the Gateway at no cost. https://t.co/KsFHUhmaLe https://t.co/7KsKeZElra",
-            "handle": "vercel_dev",
-            "url": "https://x.com/vercel_dev/status/2101116818463281579"
-          }
+          "id": "2106863842450133114",
+          "text": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while.\n\nOne of the first projects we migrated was Turborepo, from Go to Rust¹. The migration completed, but the RoI was actually quite controversial internally.\n\nWhile Rust was in our eyes better for low-level OS access, something crucial for a build system like Turbo, the human migration costs were very sustantive.\n\nGo is very fast. It's beautifully designed. It's easy to iterate on. We were very conflicted about the migration, because it was *humans* writing the code, *even if we knew Rust was a better choice*.\n\nThe calculus has now changed. What's \"best for humans\" is no longer necessarily \"best for business\". \n\nFWIW, it's also quite unlikely that Rust is the end-all-be-all toolchain. I'm quite certain there's greener pasture ahead, because Rust itself was designed before the 'supersonic tsunami' of agents hit.\n\n¹ https​://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust",
+          "created_at": "2026-10-04T21:47:38+00:00",
+          "like_count": 2275,
+          "retweet_count": 98,
+          "reply_count": 138,
+          "engagement_score": 2609,
+          "url": "https://x.com/rauchg/status/2106863842450133114"
         },
         {
-          "id": "2101186741042663579",
-          "text": "Looks like today may be a record day for token volume % of open models on Vercel AI Gateway:\n\n🟦 Open 78.4%    🟨 Closed 21.6%\n\nWhile spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2).\n\n(Do note that's the spend for inference of the model across providers (mostly in the US), not revenue going directly to the open weight labs.)",
-          "created_at": "2026-09-19T05:48:51+00:00",
-          "like_count": 2319,
-          "retweet_count": 299,
-          "reply_count": 219,
-          "engagement_score": 3136,
-          "url": "https://x.com/rauchg/status/2101186741042663579"
-        },
-        {
-          "id": "2101397206595231765",
-          "text": "The coolest thing about the recent wave of AI is that everyone is excited about building.\n\nAll short-term drama aside, this is an immeasurably good development for the world. The people want to create and ship, not just consume.",
-          "created_at": "2026-09-19T19:45:10+00:00",
-          "like_count": 1556,
-          "retweet_count": 92,
-          "reply_count": 156,
-          "engagement_score": 1896,
-          "url": "https://x.com/rauchg/status/2101397206595231765"
-        },
-        {
-          "id": "2101079472732848510",
-          "text": "The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it.\n\nI think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeitgeist. People are eager to optimize and put AI in even more places!\n\nhttps://t.co/tK86PNGgNs",
-          "created_at": "2026-09-18T22:42:37+00:00",
-          "like_count": 1158,
-          "retweet_count": 50,
-          "reply_count": 61,
-          "engagement_score": 1319,
-          "url": "https://x.com/rauchg/status/2101079472732848510",
-          "quoted": {
-            "text": "Jev was adopted faster than any other model in AI Gateway history. In the first day, @typesafeai reached ~13% of teams, 2x the GPT-5.6 family and 6x Fable 5.1. https://t.co/kVEuLM1npu",
-            "handle": "vercel",
-            "url": "https://x.com/vercel/status/2101077346203971900"
-          }
+          "id": "2106848085267902815",
+          "text": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for human consumption. The documentation internals are AI English, because they're for agents.\n\nThis little rule of thumb can make the world better. Blogs, tweets, READMEs: human communication. It's not even about \"em dashes\" or lack thereof. It's that it's the story-telling moment where you want to connect with other humans through their words.",
+          "created_at": "2026-10-04T20:45:01+00:00",
+          "like_count": 1204,
+          "retweet_count": 45,
+          "reply_count": 145,
+          "engagement_score": 1439,
+          "url": "https://x.com/rauchg/status/2106848085267902815"
         }
       ]
-    },
-    {
-      "handle": "joshwoodward",
-      "name": "Josh Woodward (Google Labs)",
-      "domain": "ai",
-      "tier": "builder",
-      "tweets": []
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-20T20:20:02.916183+00:00"
+  "generated_at": "2026-10-05T11:38:47.550177+00:00"
 }
