@@ -1,5 +1,33 @@
 {
-  "articles": [],
+  "articles": [
+    {
+      "id": "https://openai.com/index/eu-text-provenance",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "published": "2026-10-05T15:00:00+00:00",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
+    },
+    {
+      "id": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "published": "2026-10-05T10:00:00+00:00",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
+    },
+    {
+      "id": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "Apple and a Hacker’s Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "published": "2026-10-05T10:00:00+00:00",
+      "summary": "I was happy for years in Apple's walled garden; with AI, however, their protections feel like limitations."
+    }
+  ],
   "errors": null,
-  "generated_at": "2026-10-05T00:27:50.215341+00:00"
+  "generated_at": "2026-10-06T02:03:33.540436+00:00"
 }
