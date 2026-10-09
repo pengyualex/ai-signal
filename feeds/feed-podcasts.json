@@ -1,6 +1,42 @@
 {
   "podcasts": [
     {
+      "channel": "a16z",
+      "domain": "ai",
+      "guid": "362a88d2-2968-43d5-b3e4-7531e65faea0",
+      "title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+      "pub_date": "2026-10-08T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/building-the-cloud-for-an-agentic-world-aws-ceo-matt-garman-d18BWOHC",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/e1b4fcb1-9600-4c7b-a712-186a9c63f2fd/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=e1b4fcb1-9600-4c7b-a712-186a9c63f2fd&feed=JGE3yC0V",
+      "audio_bytes": 54045580,
+      "duration": "00:56:17",
+      "description": "<p>a16z’s Raghu Raghuram sits down with AWS CEO Matt Garman to discuss how AI is reshaping the cloud, from the needs of AI-native startups to infrastructure increasingly designed for agents.</p><p>Matt explains how AWS is adapting as agents write code and manage infrastructure, why it’s reserving scarce GPU capacity for startups, and where custom chips like Trainium and Graviton fit into the AI stack.</p><p>They also discuss Amazon's $220 billion capital investment, the shifting bottlenecks in the infrastructure buildout, what enterprises need to trust autonomous agents, and how AWS's own teams are building with agents.</p><p><br>Resources:</p><p>Follow Matt Garman on X:&nbsp; <a href=\"https://x.com/mattsgarman\" rel=\"noopener noreferrer\"><u>https://x.com/mattsgarman</u></a>&nbsp;</p><p>Follow Matt Garman on LinkedIn: <a href=\"https://www.linkedin.com/in/mattgarman\" rel=\"noopener noreferrer\"><u>https://www.linkedin.com/in/mattgarman</u></a></p><p>Follow Raghu Raghuram on X:<a href=\"https://x.com/RaghuRaghuram\" rel=\"noopener noreferrer\"> <u>https://x.com/RaghuRaghuram</u></a></p><p>Learn more about AWS:<a href=\"https://aws.amazon.com/\" rel=\"noopener noreferrer\"> <u>https://aws.amazon.com/</u></a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\">Apple Podcasts</a></p><p>Follow our host: <a href=\"https://twitter.com/eriktorenberg\">https://twitter.com/eriktorenberg</a></p><p> </p><p>Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to eva",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Capital Allocators",
+      "domain": "invest",
+      "guid": "888c1ab6-59aa-47e7-afc0-f3ccef2fbdfe",
+      "title": "Real Estate Credit Over Yield at Invesco – Charlie Rose (EP.519)",
+      "pub_date": "2026-10-08T08:00:00+00:00",
+      "link": "https://tedseides.libsyn.com/real-estate-credit-over-yield-at-invesco-charlie-rose-ep519",
+      "audio_url": "https://traffic.libsyn.com/secure/tedseides/CA_-_EP.519_Charlie_Rose_-_AUDIO_V1.mp3?dest-id=482814",
+      "audio_bytes": 57364586,
+      "duration": "59:35",
+      "description": "<div dir=\"ltr\">Charlie Rose is the Global Head of Real Estate Credit at Invesco, where he oversees an $85 billion global platform. Before joining Invesco, Charlie worked in real estate as an academic researcher, jack-of-all-trades through the financial crisis, and investor up and down the capital stack for eight years at Canyon Partners.</div> <p dir=\"ltr\"> </p> <div dir=\"ltr\">Our conversation covers Invesco's \"credit over yield\" approach, property-first underwriting, collaborative work inside the firm, and relationship-based focus. We discuss sourcing through repeat borrowers, risk management, portfolio construction, contrarian calls, including avoiding data centers and AI exposure, and \"sheds and beds\" theme of industrial and multifamily loans. We close with lessons from the 2022–23 real estate correction, managing troubled loans, and how Invesco is using AI to improve investment decisions.</div> <p dir=\"ltr\"> </p> <div dir=\"ltr\">See full disclaimer <a href= \"https://www.capitalallocators.com/podcast/real-estate-credit-over-yield-at-invesco/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl= \"https://www.google.com/url?q=https://www.capitalallocators.com/podcast/real-estate-credit-over-yield-at-invesco/&source=gmail&ust=1791501697628000&usg=AOvVaw1Wyr4z6gXB533YmeVRBGmT\"> here</a>.</div> <div dir=\"ltr\"> </div> <div dir=\"ltr\">Register for TomorrowX using the Capital Allocators discount <a href= \"https://tomorrowxsummit.com/partner-offer?token=WIVivSy7_so7XoVZGb2gLweZei3QtL8LZ_TdrCg-ocE\" target=\"_blank\" rel=\"noopener noreferrer\" data-saferedirecturl= \"https://www.google.com/url?q=https://tomorrowxsummit.com/partner-offer?token%3DWIVivSy7_so7XoVZGb2gLweZei3QtL8LZ_TdrCg-ocE&source=gmail&ust=1791501697628000&usg=AOvVaw1-DATTxSBziIk8mww1knPv\"> here</a>.</div> <p dir=\"ltr\"> </p> <div><strong>Learn More</strong></div> <div>Follow Ted on <a href=\"https://twitter.com/tseides?lang=en\" target=\"_blank\" rel=\"noopener noreferrer\" data-saferedirecturl= \"https://www.google.com/u",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: text too sparse to be a transcript (3247 chars for 59 min); youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "The Acquirers Podcast",
       "domain": "invest",
       "guid": "07aeafdc-ba36-4851-9b94-5290ff21121e",
@@ -106,42 +142,6 @@
       "transcript_url": null,
       "transcript_video_id": null,
       "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "Capital Allocators",
-      "domain": "invest",
-      "guid": "371175f3-c679-4943-b116-9e0e582e548a",
-      "title": "Building the Total Portfolio at Ontario Teachers – Stephen McLennan (EP.518)",
-      "pub_date": "2026-10-05T14:00:00+00:00",
-      "link": "https://tedseides.libsyn.com/building-the-total-portfolio-at-ontario-teachers-stephen-mclennan-ep518",
-      "audio_url": "https://traffic.libsyn.com/secure/tedseides/CA_-_EP.518_Stephen_McLennan_-_AUDIO_V1.mp3?dest-id=482814",
-      "audio_bytes": 54641143,
-      "duration": "56:46",
-      "description": "<p class=\"MsoNormal\">Stephen McLennan is the Co-Chief Investment Officer of the Ontario Teachers' Pension Plan, where he oversees asset allocation for the $300 billion fund responsible for the retirement security of 346,000 teachers. Stephen joined OTPP in 2003 and worked across credit, natural resources, infrastructure, and Total Fund Management, before splitting the CIO seat with Gillian Brown in 2024 — a dual-CIO structure that is unique among Canada's largest pension funds.  <br /> <br /></p> <p class=\"MsoNormal\"> </p> <p class=\"MsoNormal\">Our conversation traces that path and discusses OTPP's total portfolio strategy, including the balance of top-down asset allocation with bottom-up investing, role of active management, liquidity, leverage, and internal and external management. We cover where private equity, credit, infrastructure, hedge funds, and inflation-sensitive assets earn their place in the portfolio, how AI-driven concentration risk factors into portfolio resilience, and the evolution of the Canadian model, with both enduring edges and eroding competitive advantages.  </p> <p class=\"MsoNormal\"><br /> Register for TomorrowX using the Capital Allocators discount <a href= \"https://tomorrowxsummit.com/partner-offer?token=WIVivSy7_so7XoVZGb2gLweZei3QtL8LZ_TdrCg-ocE\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl= \"https://www.google.com/url?q=https://tomorrowxsummit.com/partner-offer?token%3DWIVivSy7_so7XoVZGb2gLweZei3QtL8LZ_TdrCg-ocE&source=gmail&ust=1790954087810000&usg=AOvVaw0k1WblQMDiK21FIZ9-D9vL\"> here</a>.</p> <p class=\"MsoNormal\">Learn more about Juniper Square <a href= \"https://www.junipersquare.com/capitalallocators\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl= \"https://www.google.com/url?q=https://www.junipersquare.com/capitalallocators&source=gmail&ust=1790954087811000&usg=AOvVaw0zE2A9iLp53-v1jOVotjuB\">here</a>.<br />  <br /> <strong>Learn More</strong><br /> Follow Ted on X at <a href= \"https://twitter.com/tseides?lang=en\" target=\"_",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: text too sparse to be a transcript (3554 chars for 56 min); youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "a16z",
-      "domain": "ai",
-      "guid": "2eba7469-414c-4103-a091-bbdbf12bd835",
-      "title": "The Top 100 Consumer AI Apps: Who’s Actually Paying?",
-      "pub_date": "2026-10-05T10:00:00+00:00",
-      "link": "https://a16z.simplecast.com/episodes/the-top-100-consumer-ai-apps-whos-actually-paying-PdmgSeRQ",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/15cd7eea-99bc-4db9-b027-1fdb2500162c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=15cd7eea-99bc-4db9-b027-1fdb2500162c&feed=JGE3yC0V",
-      "audio_bytes": 49027144,
-      "duration": "00:51:04",
-      "description": "<p>a16z Editorial Partner Elena Burger sits down with investing partners Olivia Moore and Josh Elman to unpack the seventh edition of a16z’s Top 100 Consumer AI Apps, including a new dimension this time: what consumers are actually paying for.</p><p>The data reveals a striking power-user economy. Only a small share of consumers currently pay for AI, but among those who do, spending is heavily concentrated at the top. Olivia and Josh discuss why developers, creators, and other power users dominate spending today, and why subscriptions may not be the business model that ultimately brings consumer AI to everyone.&nbsp;</p><p>They also dig into the rise of personal agents, the different trajectories of ChatGPT, Claude, and Gemini, how ads could reshape AI economics, and the enormous amount of consumer white space still left to build, from shopping and entertainment to social, dating, and marketplaces.</p><p><br>Resources:</p><p>Read the Top 100 Consumer AI Apps, Seventh Edition: <a href=\"https://www.a16z.news/p/top-100-consumer-ai-apps-seventh\" rel=\"noopener noreferrer\">https://www.a16z.news/p/top-100-consumer-ai-apps-seventh</a></p><p>Follow Olivia Moore: <a href=\"https://x.com/omooretweets\" rel=\"noopener noreferrer\"><u>https://x.com/omooretweets</u></a>&nbsp;</p><p>Follow Josh Elman: <a href=\"https://x.com/joshelman\" rel=\"noopener noreferrer\"><u>https://x.com/joshelman</u></a>&nbsp;</p><p>Follow Elena Burger: <a href=\"https://x.com/VirtualElena\" rel=\"noopener noreferrer\"><u>https://x.com/VirtualElena</u></a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
       "transcript_chars": 0
     },
     {
@@ -365,42 +365,6 @@
       "transcript_chars": 0
     },
     {
-      "channel": "All-In Podcast",
-      "domain": "ai",
-      "guid": "5014b8b5-272a-4169-83d3-5b0ebf8c30c0",
-      "title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
-      "pub_date": "2026-09-18T00:30:00+00:00",
-      "link": "https://allinchamathjason.libsyn.com/nick-shirley-exposing-government-fraud-suing-california-taking-on-the-media",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/AIS26_NickShirley_Ch.mp3?dest-id=1928300",
-      "audio_bytes": 46848394,
-      "duration": "32:32",
-      "description": "<p>(0:00) Nick Shirley debuts his new video: \"Inside California's High Speed Rail to Nowhere\"</p> <p>(11:42) Nick joins The Besties to discuss California's \"Stop Nick Shirley Act\" and recent fraud arrests</p> <p>(17:03) How he got into investigative journalism and finding fraud</p> <p>(23:32) Selective journalism and why Nick is a major threat to mainstream outlets</p> <p>(27:34) What's next for Nick: Investigating welfare fraud, building his platform</p> <p>Thanks to our partners for making this possible!</p> <p>IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. <a href=\"https://iren.com/\">https://iren.com/</a></p> <p>Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. <a href= \"http://oracle.com/ai\">http://oracle.com/ai</a></p> <p>EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p>Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href=\"http://www.meta.com\">http://www.meta.com</a></p> <p>Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href= \"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p>Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn yield, pay globally, and manage spend. <a href= \"http://airwallex.com\">http://airwallex.com</a></p> <p>PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences that make moving money, selling, and shopping simple, personalized, and secure, PayPal empowe",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: text too sparse to be a transcript (4238 chars for 32 min); youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "All-In Podcast",
-      "domain": "ai",
-      "guid": "3ee9866a-23a5-447b-a584-b1c167a23b58",
-      "title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-      "pub_date": "2026-09-17T16:54:00+00:00",
-      "link": "https://allinchamathjason.libsyn.com/metas-dina-powell-mccormick-the-case-for-data-centers-backlash-ai-job-boom-metas-future",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/AIS26_Dina_Ch.mp3?dest-id=1928300",
-      "audio_bytes": 63154679,
-      "duration": "43:52",
-      "description": "<p>(0:00) Dina Powell McCormick joins The Besties!</p> <p>(1:52) Impact of Meta's data center in Richland Parish, LA: $50K teacher checks, revitalizing a small town community</p> <p>(11:52) How Meta is alleviating data center concerns: pollution, electricity, water, noise, aesthetics; Misinformation campaigns</p> <p>(19:57) America's Workforce Academy, the job growth in re-industrializing America</p> <p>(26:58) Meta's recent social media settlement, new rules for teens</p> <p>(35:25) Meta glasses and Zuck's AI strategy</p> <p>Thanks to our partners for making this possible!</p> <p>IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. https://iren.com/</p> <p>Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. <a href= \"http://oracle.com/ai\">http://oracle.com/ai</a></p> <p>EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p>Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href=\"http://www.meta.com\">http://www.meta.com</a></p> <p>Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href= \"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p>Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn yield, pay globally, and manage spend. <a href= \"http://airwallex.com\">http://airwallex.com</a></p> <p>PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences that make moving money, selling, and shopping simple, pe",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: text too sparse to be a transcript (4315 chars for 43 min); youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
       "channel": "POLITICO",
       "domain": "ai",
       "person": "Sam Altman",
@@ -597,11 +561,33 @@
       "transcript_video_id": "roz4fmf9-ng",
       "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=roz4fmf9-ng! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_chars": 0
+    },
+    {
+      "channel": "Forbes Breaking News",
+      "domain": "ai",
+      "person": "Jensen Huang",
+      "search_query": "Jensen Huang interview",
+      "guid": "yt:k1HRPESsyoM",
+      "title": "BREAKING NEWS: Trump Awards Elon Musk, Jensen Huang, Sergei Brin, & Others National Medal Of Science",
+      "pub_date": "",
+      "pub_date_source": "unverified",
+      "publish_date_unverified": true,
+      "first_seen": "2026-10-09T07:38:37.036709+00:00",
+      "link": "https://www.youtube.com/watch?v=k1HRPESsyoM",
+      "audio_url": "",
+      "duration": "28:51",
+      "description": "On Thursday, President Trump awarded the National Medal of Science to Elon Musk, Sergei Brin, Satya Nadella, Lisa Su, Jensen ...",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": "k1HRPESsyoM",
+      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=k1HRPESsyoM! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_chars": 0
     }
   ],
   "errors": [
     "Latent Space: https://api.substack.com/feed/podcast/1084089.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Lenny's Podcast: https://api.substack.com/feed/podcast/10845.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-10-08T07:42:43.314698+00:00"
+  "generated_at": "2026-10-09T07:39:13.050208+00:00"
 }
