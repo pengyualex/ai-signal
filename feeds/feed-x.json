@@ -26,23 +26,7 @@
       "name": "Demis Hassabis (Google DeepMind)",
       "domain": "ai",
       "tier": "exec",
-      "tweets": [
-        {
-          "id": "2106850913474482566",
-          "text": "Very proud of the impact of all our work using AI to accelerate science and medicine for the benefit of society.",
-          "created_at": "2026-10-04T20:56:15+00:00",
-          "like_count": 2596,
-          "retweet_count": 180,
-          "reply_count": 135,
-          "engagement_score": 3091,
-          "url": "https://x.com/demishassabis/status/2106850913474482566",
-          "quoted": {
-            "text": "Today we have set out how we’re building AI to accelerate science and improve people’s lives. Just some examples in the last week or so: - Mapped all 9B possible single letter genetic changes across the human genome with AlphaGenome Atlas and made it openly available to researchers. - Billions of decisions depend on weather predictions so we introduced WeatherNext 3, our most accurate and capable global weather AI model to date. - We published AI & Economy ATLAS, a comprehensive open-access look at how people are using AI globally. - AI has enabled extraordinary advances in language translation. Today our services are available in nearly 300 languages, spoken by 7B people We’re focusing our efforts on four key areas: health, natural disaster and weather resilience, learning, and economic opportunity. https://t.co/DDKcUTYj54",
-            "handle": "sundarpichai",
-            "url": "https://x.com/sundarpichai/status/2099911653395685765"
-          }
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "JensenHuang",
@@ -63,61 +47,14 @@
       "name": "Mark Gurman (Bloomberg)",
       "domain": "ai",
       "tier": "analyst",
-      "tweets": [
-        {
-          "id": "2106755367015449040",
-          "text": "Since becoming CEO, he’s immersed himself in the industrial design and human interface teams. People familiar with the department say he works hands-on in the studio several times a week, sometimes visiting multiple times a day. Cook typically visited for about an hour monthly.",
-          "created_at": "2026-10-04T14:36:35+00:00",
-          "like_count": 4220,
-          "retweet_count": 144,
-          "reply_count": 68,
-          "engagement_score": 4576,
-          "url": "https://x.com/markgurman/status/2106755367015449040",
-          "quoted": {
-            "text": "Power On: After years without a design chief overseeing both its hardware and software design teams, new Apple CEO John Ternus has found one: himself. https://t.co/Q1wCIzdXvO",
-            "handle": "markgurman",
-            "url": "https://x.com/markgurman/status/2106753410255241573"
-          }
-        },
-        {
-          "id": "2106755888229031986",
-          "text": "Apple’s touch-screen and OLED MacBook Pro has one more thing: they are lighter — Significantly lighter. Apple has reengineered the machine’s interior, miniaturizing parts and rearranging components to make the computer much easier to carry. https://t.co/N2OcraXKUl",
-          "created_at": "2026-10-04T14:38:40+00:00",
-          "like_count": 3239,
-          "retweet_count": 118,
-          "reply_count": 87,
-          "engagement_score": 3562,
-          "url": "https://x.com/markgurman/status/2106755888229031986"
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "sssjeffpu",
       "name": "Jeff Pu (GF Securities)",
       "domain": "ai",
       "tier": "analyst",
-      "tweets": [
-        {
-          "id": "2106942994591174685",
-          "text": "Summary of UMC 2303 TT note on market worries vs. our view re-rating \n\n• UMC share price weak on worries over “no price hike in 2H26” • We see 2H26 hikes are for selective customers (e.g. MTK 8”).\n→ The broad-based hikes to be in 1Q27 (10-30%). \n\n⬆️ Raise TP to NT$215 : Meaningful re-rating path into 2H26–2028\n☕️ 2H26–2027: Profitability optimization on Higher UTR + price hikes + improving mix • 12” UTR → ~93% by end-2026 (Novatek/Samsung LSI 22/28nm + Apple Mac) • 8” UTR → ~90% by end-2026, full loading by 2H27 • Pricing momentum extends into 1H27 (10–30% across nodes)\n2028\n\n⬆️new growth phase from 2028 • Asset-light FinFET 12nm model , with Apple DDIC likely be the key driver  • Optical full-solution model (SiPh/TFLN + interposer/advanced packaging) - TFLN EPS contribution of NT&0.7/NT$1.6 in 27/28. \n\n💰 EPS lifted and target multiple to 25x 2027E EPS. Solid FCF + dividend yields intact.\n\n#UMC #Optical #TFLN",
-          "created_at": "2026-10-05T03:02:09+00:00",
-          "like_count": 38,
-          "retweet_count": 2,
-          "reply_count": 0,
-          "engagement_score": 42,
-          "url": "https://x.com/sssjeffpu/status/2106942994591174685"
-        },
-        {
-          "id": "2106952553779126738",
-          "text": "Summary of Thoughts on PTFE vs. HC  \n\n✍️ PTFE hybrid still the most likely PCB solution for Nvidia’s VR300 NVL576 switch board\n• We est. HC hybrid (HC + ABF/M9) recently passed SI testing and is ~3 months behind PTFE hybrid in the qualification — has not yet entered PCB MP testing\n• Final material decision expected by end-26. We think Leading Chinese PCB player has already achieved meaningful yields on the PTFE hybrid\n• Remain constructive on PTFE for high-end/high-speed AI PCBs; any HC adoption would likely be transitional\n\n#PCB #PTFE",
-          "created_at": "2026-10-05T03:40:08+00:00",
-          "like_count": 36,
-          "retweet_count": 2,
-          "reply_count": 1,
-          "engagement_score": 41,
-          "url": "https://x.com/sssjeffpu/status/2106952553779126738"
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "jukan05",
@@ -126,34 +63,24 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2106910342983057576",
-          "text": "SPCX is aggressively pushing reverse engineering to get around bottlenecks...\n\nRacks, chillers, etc...\n\nSo they're going to vertically integrate everything they possibly can.\n\nHow do they get around patents and IP with this? Don't they get sued? https://t.co/gLpIxqDP5C",
-          "created_at": "2026-10-05T00:52:24+00:00",
-          "like_count": 966,
-          "retweet_count": 54,
-          "reply_count": 52,
-          "engagement_score": 1126,
-          "url": "https://x.com/jukan05/status/2106910342983057576",
-          "quoted": {
-            "text": "Apparently 60% of $SPCX's 10GW goes to its own demand, and only 40% is for external customers. Could it be because Grok Bot has been a hit? https://t.co/QduPTCCOvH",
-            "handle": "jukan05",
-            "url": "https://x.com/jukan05/status/2106907946890457304"
-          }
+          "id": "2108782164016079257",
+          "text": "IMO, Netflix needs to invest heavily in AI video generation ASAP. Otherwise, it’s going to get eaten alive by AI-generated short-form dramas made with Chinese video generation models.",
+          "created_at": "2026-10-10T04:50:21+00:00",
+          "like_count": 671,
+          "retweet_count": 20,
+          "reply_count": 82,
+          "engagement_score": 793,
+          "url": "https://x.com/jukan05/status/2108782164016079257"
         },
         {
-          "id": "2106909462141542687",
-          "text": "WTF. SPCX is developing its own optical fiber too? https://t.co/AOydnfmRwI",
-          "created_at": "2026-10-05T00:48:54+00:00",
-          "like_count": 938,
-          "retweet_count": 50,
-          "reply_count": 43,
-          "engagement_score": 1081,
-          "url": "https://x.com/jukan05/status/2106909462141542687",
-          "quoted": {
-            "text": "Apparently 60% of $SPCX's 10GW goes to its own demand, and only 40% is for external customers. Could it be because Grok Bot has been a hit? https://t.co/QduPTCCOvH",
-            "handle": "jukan05",
-            "url": "https://x.com/jukan05/status/2106907946890457304"
-          }
+          "id": "2108850469774787030",
+          "text": "[Exclusive] Apple Increases iPhone Duo Orders by 30%; Total iPhone 18 Pro Series Orders Unchanged\n\n• According to Apple supply chain sources, Apple has adjusted orders for its fall 2026 iPhone lineup.\n\n• iPhone Duo orders have increased by 30%, though total orders remain below 10 million units.\n\n• iPhone 18 Pro orders have been cut by 10–15%, while Pro Max orders have increased by 10–15%. Total orders for the iPhone 18 Pro series remain unchanged.\n\n• This suggests stronger sales of higher-value products, which supply chain sources view as positive for earnings across Apple’s supply chain.",
+          "created_at": "2026-10-10T09:21:47+00:00",
+          "like_count": 491,
+          "retweet_count": 41,
+          "reply_count": 20,
+          "engagement_score": 593,
+          "url": "https://x.com/jukan05/status/2108850469774787030"
         }
       ]
     },
@@ -164,29 +91,14 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2106902450645156048",
-          "text": "Deep| $Ibiden: The Substrate Seller’s Market Has Only Just Begun\nHigh-end ABF capacity still failing to keep pace with the area and layer count of AI silicon\n\nIbiden’s (4062 JP) core driver remains qualified high-end ABF capacity failing to keep pace with the area and layer count of AI silicon. Intel/AMD server CPU shipments grow +36%/+62% in 2027 on new platforms 56–63% larger in substrate area, widening the CPU gap further. GPUs and EMIB-T consume the highest-end capacity: Rubin yields only 12 units per panel, TPU V9 / Trainium 4 only 4. The next pricing step falls on 27Q1 contract renewals, where new products can price above legacy agreements. We forecast FY3/27 / FY3/28 revenue growth of 35% / 30% and EPS of JPY173 / JPY267; at ~45x FY3/28E PE the shares still have rerating room, with the FY27Q2 results call the near-term catalyst.\n\n-CPU demand is back and widens the supply gap. Resident agents such as Muse push workloads back onto CPUs via headless browsers and high-frequency API calls, and Intel can currently fill only ~50% of orders; shipments have upside if capacity allows. FUNDA models Intel server CPU shipments of 26.5mn units in 2027E (+36%) and AMD 20.4mn (+62%); multiplied by substrate area 63% larger for Diamond Rapids vs. Granite Rapids and 56% larger for Venice vs. Turin, substrate-area demand grows far faster than unit count. Supply is not only limited but already allocated: tier-1 and tier-2 makers are all full as of 26Q4, lead times are 48–52 weeks, total 2027 capacity grows only ~10–15%, and a visible shortfall opens from 27Q1. Customers that did not co-fund capacity sit lower in the allocation queue. This is already visible at Ibiden: AMD substrate revenue declines sequentially through 2H FY3/27 as capacity temporarily allocated to AMD returns to Intel; this does not reflect weaker AMD demand.\n\n-GPUs and EMIB-T consume the highest-end slice of capacity. Blackwell is 73×81mm at 14 layers; Rubin 83×97mm at 18 layers, an estimated 1.8x the area; Rubin Ultra more than 2x Blackwell’s area at ~3x the price. EMIB-T is more extreme: Google TPU V9 at ~120×120mm, 24 layers with a multi-layer core, and Amazon Trainium 4 at ~120×120mm, 24 layers with a multi-layer core, each yielding only 4 substrates per panel. Even if ASIC unit growth looks modest, what truly consumes capacity is area, layer count and yield (core-stage yield on a multi-layer core drops from 99.9% to 97–98%, and a core defect can render all subsequent build-up layers worthless).\n\n-Substrate price increases continue, supporting Ibiden’s new-product pricing. This year’s increases came mainly from Taiwanese makers; Ibiden only removed its quarterly price-decline assumption and normalized Intel pricing to a fair level. Next year, with the industry shortfall in place and lead times at 48–52 weeks, the next customer contract renewals fall in 27Q1 and new products can secure better quotes; new T-glass suppliers are also expected to qualify in 27Q1, and with Chinese and Taiwanese suppliers raising prices Ibiden also has room to pass through costs, while substrates remain under 10% of chip cost so we expect customers to accept the increase. We have not yet seen specific quotes, but we think a price increase is likely.\n\nDetailed Report\nhttps://t.co/PDbu9sOj9L",
-          "created_at": "2026-10-05T00:21:03+00:00",
-          "like_count": 53,
-          "retweet_count": 9,
+          "id": "2108952970905936009",
+          "text": "Weekly|AI4S, Gemini 4, TSM & ASML, MRVL and OCS, Muse, CRWV\nAI for science and a new training cycle, with capacity and optical interconnects in focus\n\nGoogle is back in the frontier race, and we think a new training cycle is beginning. As we argue in this week’s column, Gemini 4 is evidence that scaling still works; the next test is how much post-training improves coding and long tasks in Gemini 4.1. With OpenAI, Anthropic, Google, Meta and xAI all investing to defend or improve their positions, we remain bullish on the networking and optical interconnects needed to keep larger clusters productive.\n\nAI for science gives us another reason to be optimistic about where that compute can go. OpenAI’s latest mathematics release still needs independent scrutiny, but progress in problems with verifiable answers could help AI take on more research and engineering work. Drug discovery, materials and energy research offer much broader potential benefits. Physical experiments and clinical trials will still take time; our optimism is about expanding the ideas scientists can test and the connections they can make across disciplines.\n\nThe supply chain is preparing for that investment. We see TSMC’s growth increasingly governed by how quickly capacity comes online, and have raised our ASML EUV shipment forecasts again. Marvell’s Investor Day targets are moving closer to our forecasts, backed by longer-term supplier planning. OCS adds another source of optical demand as content per accelerator rises, although deployment beyond Google remains an important assumption in our longer-term model.\n\nOn the application side, we are watching retention and cost together. Muse’s improving retention gives Meta a reason to expand acquisition once the economics support it, while computer use opens a much larger pool of work to automation. Our expert interviews also underline the obstacles: high token consumption can limit enterprise adoption, and physical capacity still depends on manufacturing yields, equipment and power. Better models and more infrastructure need to translate into reliable, affordable work.\n\nThis Week’s Reports\nGoing the Way of Go: stronger models make the next training cycle worth watching. Our new column connects AI’s progress in mathematics and programming with Google’s return to the frontier, and explains why we remain optimistic about AI for science and optical interconnect demand.\nhttps://t.co/aG5lYe5X7x\n\nTSM & ASML: capacity expansion sets the pace. We expect TSMC’s advanced-node expansion to support further growth and now forecast ASML total EUV shipments of 100/125 units in 2027/28, as both logic and memory customers need more equipment.\nhttps://t.co/CjAi9KwvLZ\nhttps://t.co/6XSEstJSYW\n\nMRVL & OCS: more optical content as AI clusters grow. Marvell’s new targets move closer to our forecasts, while our OCS work points to more than $20b of annual demand by 2030, conditional on broader adoption that includes Nvidia from late 2028.\nhttps://t.co/tb66cNHSTZ\nhttps://t.co/6ra46zvxJb\n\nMETA: Muse’s retention is improving before the next growth push. We expect adoption to advance in steps as Meta improves retention and balances user acquisition against the substantial compute cost of serving a personal agent.\nhttps://t.co/osrCIeTYSc\n\nComputer use: a much larger market for AI providers. Our long-term framework points to roughly $1tn of additional annual revenue and automatable work equivalent to about 180mn full-time roles, an estimate of task hours rather than a forecast of layoffs.\nhttps://t.co/mKqCKhvlZz\n\nPremium Report Snapshot\nA portion of our research is reserved for Premium subscribers and is not distributed via Substack. Below is a snapshot of what Premium subscribers received this week beyond the Substack feed.\n\nResearch | Personal Agents: Muse Becomes a Daily Assistant, but Shopping Faces Platform Restrictions\n\nDeep | CRWV: Capacity Expansion and Further Upside to Revenue per GW\n\nDeep | TWLO: How Much Can Twilio Earn When Agents Make Calls?\n\nWeekly Expert Interviews Summary\nA snapshot of the expert interviews we conducted during the past week is below; full transcripts and takeaways are available on the FUNDA platform.\n\nAnthropic: Computer-Use Economics and Enterprise Strategy\n\nExecutive, Leading AI research & deployment company\n\nThe expert sees high token consumption as a constraint on enterprise computer-use adoption and discusses whether protocol-based automation can improve the economics.\n\nFTAI Power: Execution Risks Behind the Expansion Target (FTAI)\n\nManager, Leading Aviation Services Provider\n\nThe expert questions the feasibility of 100 sets in 2027, citing Montreal space, dedicated staffing and supply-chain constraints that could push delivery into 2029–30.\n\nMemory: Supply Constraints and Customer Negotiations\n\nFormer Procurement Manager, Global Cloud Technology Company\n\nThe expert sees tight HBM and server DRAM supply supporting pricing, with phased negotiations and long-term agreements moderating increases rather than eliminating them.\n\nHVLP Copper Foil: High-End Capacity Remains Hard to Add\n\nExecutive, Regional China Copper Foil Manufacturer\n\nThe expert highlights finishing-equipment constraints and yield losses at higher grades and thinner gauges, leaving high-end supply tight even as lower-end HVLP faces potential oversupply.\n\nTrainium: Manufacturing Yields and Capacity Diversification (AMZN)\n\nExecutive, a major hyperscaler\n\nThe expert reports liquid-cooled rack first-pass yields of roughly 50% in Mexico, with alternative capacity also facing equipment lead times, licensing and power constraints.\n\nEnterprise AI: Spending Shifts Toward Core Platforms (OKTA, MSFT, CRM, NOW, MDB, SNOW)\n\nStrategy Executive, Top US telecom provider\n\nThe expert sees AI spending favoring core security, cloud, database and workflow platforms while reducing overlapping point tools, with additional infrastructure spending following model adoption.\n\nDiagnostics: AI Security and Data Modernization (PANW, OKTA, CRWD, SNOW, TEAM)\n\nAI Executive, Mid-sized diagnostics firm\n\nThe expert describes a sharp rise in AI security spending from a small base, alongside platform consolidation and Snowflake investment tied to data modernization and agent workloads.\n\nDetailed Report\nhttps://t.co/qyNIcIdwH2",
+          "created_at": "2026-10-10T16:09:05+00:00",
+          "like_count": 11,
+          "retweet_count": 0,
           "reply_count": 2,
-          "engagement_score": 73,
-          "url": "https://x.com/FundaAI/status/2106902450645156048"
-        },
-        {
-          "id": "2106938309922750508",
-          "text": "After FUNDA published this LLM Report, 75% of the TMTB community believed that the gap between closed-source and open-weight models was widening again, a complete reversal from the prevailing view in August. Thanks to @TMTBreakout  for compiling the data. FUNDA, meanwhile, has been discussing this trend for two months.",
-          "created_at": "2026-10-05T02:43:32+00:00",
-          "like_count": 42,
-          "retweet_count": 7,
-          "reply_count": 0,
-          "engagement_score": 56,
-          "url": "https://x.com/FundaAI/status/2106938309922750508",
-          "quoted": {
-            "text": "Deep|LLM: Open-Weight Models’ Low-Cost Catch-Up Is Unlikely to Last Top labs are going to widen their lead again A succession of strong open-weight models were released this summer. Zhipu launched GLM-5.2 on June 22, followed by GLM-5.3 on August 14, a release focused solely on scaling post-training. On Zhipu’s own evaluations, GLM-5.3 matched or outperformed Fable 5 and GPT-5.6 Sol on several agentic coding tasks. Moonshot AI launched Kimi K3 on July 17. It scored 57 on the Artificial Analysis Intelligence Index, behind only Fable 5 and GPT-5.6 Sol. DeepSeek’s August 13 update to V4 Pro scored 87.9 on Terminal-Bench 2.1, nearly matching Fable 5’s 88 at roughly one-fiftieth of its cost per task. DeepSeek followed with V4.1 Flash in September. Xiaomi released MiMo-V2.6 with open weights on September 22; its Pro variant now leads the open-weight rankings on the Artificial Analysis Intelligence Index. Many in the industry now put the gap between open-weight and top proprietary models at just a few months. Some argue that distillation is not the main reason open-weight models have kept pace. We agree it is not the only reason, but it has been one of the key ones. What worries investors is whether open-weight developers can keep matching top proprietary models at a fraction of the R&D cost, and if so, how long the proprietary labs’ lead can last. That worry is feeding into AI and compute stocks, as it did after DeepSeek R1 in January 2025. We do not think open-weight developers can keep catching up this cheaply, and we expect the recent narrowing of the gap to prove temporary, as it did after R1. Distilling capabilities from top proprietary models is getting harder. The latest models from Anthropic, OpenAI and Google no longer expose their full chain of thought as plaintext, and answers and summaries alone provide weaker training signals. Open-weight developers will need to invest more in their own reinforcement learning, synthetic data generation and training environments. All require compute. Over the next few model generations, we expect the leading open-weight models to fall roughly six to twelve months behind top proprietary models again. The same thing happened in 2025: R1 briefly approached o1, then o3, Claude 4 and GPT-5 pulled ahead. Detailed Report https://t.co/9buRDYUTBS",
-            "handle": "FundaAI",
-            "url": "https://x.com/FundaAI/status/2104926674722980270"
-          }
+          "engagement_score": 13,
+          "url": "https://x.com/FundaAI/status/2108952970905936009"
         }
       ]
     },
@@ -204,24 +116,34 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2106814432273973577",
-          "text": "Ben Horowitz on the midnight phone call from Kanye that turned his CEO barbecue into a studio session:\n\n\"I answer and go, 'Ye, what's up?' He goes, 'Hey Ben, I heard you're having a barbecue tomorrow. Can I come?' I was like, 'Sure.' 'Okay, great. And I want to record in your studio.'\"\n\n\"I'm like, 'Ye, I don't have a studio.' And he goes, 'Okay.'\"\n\n\"6:30 in the morning I get a call. 'Hey Ben, I'm Kanye's engineer. I'm just calling about the specs on your studio.' I'm like, 'I don't have a studio.' He's like, 'What do you mean you don't have a studio? Kanye is expecting a studio.'\"\n\n\"I'm like, 'Who do we know who has a studio?' And they're like, 'Howie.' So we call. 'What are you doing, Howie?' 'Watching Netflix.' 'Is that studio you have portable?' 'Yeah.' Long story short, you drove the studio down to my house and we set it up in the room.\"\n\n\"A lot more crazy stuff happened. Ye was playing us the Pablo album... That was a legendary day. No doubt.\"\n\n@bhorowitz w/ @MotownIni",
-          "created_at": "2026-10-04T18:31:18+00:00",
-          "like_count": 637,
-          "retweet_count": 32,
-          "reply_count": 19,
-          "engagement_score": 720,
-          "url": "https://x.com/a16z/status/2106814432273973577"
+          "id": "2108950777440165999",
+          "text": "Energy capacity = economic capacity, in one chart\n\nThere are no low electricity, rich countries https://t.co/DTCmjh3kwv",
+          "created_at": "2026-10-10T16:00:22+00:00",
+          "like_count": 2671,
+          "retweet_count": 528,
+          "reply_count": 178,
+          "engagement_score": 3905,
+          "url": "https://x.com/a16z/status/2108950777440165999",
+          "quoted": {
+            "text": "\"Energy Capacity = Economic Capacity\" Former Intel CEO Pat Gelsinger on why America's power grid is the ceiling on growth: \"We went through 10 to 15 years where essentially I was taking coal offline at the rate I was adding renewables, and essentially the nation was flatlined in terms of overall energy capacity.\" \"So essentially our economic capacity as a nation, flat for fifteen years.\" \"Even with that, we've gone to maybe increasing our national energy capacity 4% per year. Going from essentially zero to one.\" \"Nuclear as base load is a fabulous thing that we want to go build more of. Unfortunately all of our renewables have deep dependencies in China.\" \"Energy capacity somewhat dampens how euphoric we can get on AI. Why build a new data center and buy the million GPUs if I can't power them?\" @PGelsinger @RaghuRaghuram @appenz",
+            "handle": "a16z",
+            "url": "https://x.com/a16z/status/2108580864749941063"
+          }
         },
         {
-          "id": "2106839724698873907",
-          "text": "Ben Horowitz on the rap group he started at 18, and why hip-hop became the source material for how he thinks about business:\n\n\"I was probably 12 when Rapper's Delight came out... The first one where I was really like, 'Oh, this is gonna be very different,' was when Run-DMC's Hard Times came out. This has a whole other feel to it than anything I've heard.\"\n\n\"The thing that made me locked into hip-hop: I went to school in New York. I have this friend who I grew up with who had gotten shot in the face in some kind of gun accident, and he was blind... I'd call home to my mom: 'Is he gonna be okay?' She's like, 'He hasn't spoken to anybody since he's been shot.'\"\n\n\"Being a dumb 18-year-old kid, I was like, 'Hip-hop is so great. You can have nothing and you'll rap about your shoes. He needs that feeling.' So I would record the DJ Red Alert and Chuck Chill Out show. Everybody else would be out Saturday night, and I'd be recording. And I would send him the tapes.\"\n\n\"Then I called home to see how he's doing, and they're like, 'Well, he's talking now, but all he'll talk about is hip-hop.'\"\n\n\"When I went out that summer, we started a hip-hop group called The Blind and Def Crew. Blind and D-E-F. We rapped about being blind. I wrote most of the lyrics: 'The Blind Def Crew, you know we're fly. Three of us, but we got four eyes.'\"\n\n\"Hip-hop is very business oriented, particularly in the early days. When I started writing on business, so many of the ideas came from those old hip-hop songs. So I started putting the lyrics at the top of the post to give credit where credit was due.\"\n\n@bhorowitz w/ @MotownIni",
-          "created_at": "2026-10-04T20:11:48+00:00",
-          "like_count": 88,
-          "retweet_count": 8,
-          "reply_count": 12,
-          "engagement_score": 116,
-          "url": "https://x.com/a16z/status/2106839724698873907"
+          "id": "2108965850544005533",
+          "text": "Since ChatGPT launched, call center jobs slowed or fell in every country listed below, except China\n\nOther white-collar roles kept growing\n\nCharts of the Week: https://t.co/6UOlZZPpiE https://t.co/RbqYyL6H7Q",
+          "created_at": "2026-10-10T17:00:16+00:00",
+          "like_count": 314,
+          "retweet_count": 44,
+          "reply_count": 29,
+          "engagement_score": 431,
+          "url": "https://x.com/a16z/status/2108965850544005533",
+          "quoted": {
+            "text": "Call center jobs grew ~4% annually for 15 years Now they’re shrinking 4% annually Charts of the Week: https://t.co/6UOlZZPpiE https://t.co/PPd2IZND0b",
+            "handle": "a16z",
+            "url": "https://x.com/a16z/status/2108663228029112702"
+          }
         }
       ]
     },
@@ -244,14 +166,51 @@
       "name": "The All-In Podcast",
       "domain": "ai",
       "tier": "analyst",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2108897316086095923",
+          "text": "Chamath: Software IP Just Became Worthless\n\n“I think that IP and software was effectively rendered worthless two days ago.\n\nThere have been people that decompiled the entire Big 5. What is the Big 5?\n\nAdobe has five very, very important products in their product suite, and these folks basically decompiled it, distilled it, and published open source versions of these things.\n\nI was so shocked because I was like, ‘Hold on a second. These are profound products that have existed and have had moats for years, and now they're just open source versions.’\n\nIf you think about it, when everything is headless, so when Elon makes his services headless, Benioff made Salesforce headless a few months earlier, when all of these things are headless and you can wrap them in agent tools and you can connect them via MCP to other experiences, the value of IP no longer exists in software. It doesn't exist.”",
+          "created_at": "2026-10-10T12:27:56+00:00",
+          "like_count": 2493,
+          "retweet_count": 345,
+          "reply_count": 179,
+          "engagement_score": 3362,
+          "url": "https://x.com/theallinpod/status/2108897316086095923"
+        },
+        {
+          "id": "2108996789722284422",
+          "text": "Friedberg: “We're watching the birth of a new religion.”\n\n“The idea that you can prescribe or describe AI as being conscious is effectively the creation of a new belief system, a system that doesn't actually spread via proof, it spreads via narrative.\n\n‘Please believe it with me. Here's why I think we should believe this thing together.’\n\nIt's not based on evidence, it’s not based on data, it's not provable.\n\nOver time, what happens is some set of people believe this thing, and they form a group. And in some cases, that group is known as a religion. And that new belief system creates new power structures, which is now, ‘Our view is different than your view, and we want to have more people on our side with our view. And therefore we have to try and create leverage and create power with our system.’\n\nI think that if we fast-forward a couple of years, there's going to be large groups of people on Earth that are gonna believe that AI is conscious, and there are going to be large groups of people that believe that AI is not conscious.\n\nAnd those groups will come into conflict, fighting over control of the AI, or allowing the AI to do things or not do things, or who gets to use the AI, or who gets to be in charge of the AI. And it will very likely lead to human to human conflict.\n\nI know that that's a very far and deep extrapolation of where we are, but I think that the fact that we are seeing (Anthropic) go and meet with religious leaders today to try and get them to believe in this new belief system plants the seed.\n\nAnd it's not just anyone doing this, it is the most powerful AI lab on Earth.\n\nAnd you can see in the Claude usage policy that was just published, it says, ‘You are not allowed to engage in sustained and needless abusive or cruel behavior toward our models.’\n\nThere is an anthropomorphizing conditioning going on with all of us where we talk about models as if they are a thing. One way to describe this is a software program is writing text on a screen that tells the user, ‘I am a thing.’”",
+          "created_at": "2026-10-10T19:03:12+00:00",
+          "like_count": 201,
+          "retweet_count": 29,
+          "reply_count": 31,
+          "engagement_score": 290,
+          "url": "https://x.com/theallinpod/status/2108996789722284422"
+        }
+      ]
     },
     {
       "handle": "swyx",
       "name": "Swyx (Shawn Wang)",
       "domain": "ai",
       "tier": "analyst",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2108780918060036335",
+          "text": "aie nyc tix will sell out this weekend - last call to join us to the biggest ever technical conf in New York and our first with a finance mainstage - in some ways the final unification of both my careers: from investment bank to hedgefund, from bigtech to nyc startup. cya monday! https://t.co/KIIGQgvWcZ",
+          "created_at": "2026-10-10T04:45:24+00:00",
+          "like_count": 49,
+          "retweet_count": 4,
+          "reply_count": 25,
+          "engagement_score": 82,
+          "url": "https://x.com/swyx/status/2108780918060036335",
+          "quoted": {
+            "text": "Leadership tickets for AI Engineer New York 2026 are sold out. Thank you to everyone joining us. Engineering tickets are still available for Oct 12-14. https://t.co/6gk6OFxg4h https://t.co/CulgZQwEw9",
+            "handle": "aiDotEngineer",
+            "url": "https://x.com/aiDotEngineer/status/2108663542224498918"
+          }
+        }
+      ]
     },
     {
       "handle": "insane_analyst",
@@ -260,14 +219,29 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2106914397457445291",
-          "text": "Ibiden or I-Biden? https://t.co/FH8xq0oBj4",
-          "created_at": "2026-10-05T01:08:31+00:00",
-          "like_count": 69,
-          "retweet_count": 1,
-          "reply_count": 7,
-          "engagement_score": 78,
-          "url": "https://x.com/insane_analyst/status/2106914397457445291"
+          "id": "2109069278733619663",
+          "text": "Finished building my OCP 2026 schedule. Huge number of NPO talks.\n\nSome talks I like conflict. Fortunately it is usually easy to decide which to attend which to skip.\n\nLumentum cut off Ayar Labs so that ELSFP Ayar is showing is just a prototype that will never ramp lol. https://t.co/LxXFNAhq8w",
+          "created_at": "2026-10-10T23:51:15+00:00",
+          "like_count": 42,
+          "retweet_count": 0,
+          "reply_count": 6,
+          "engagement_score": 48,
+          "url": "https://x.com/insane_analyst/status/2109069278733619663"
+        },
+        {
+          "id": "2109078370483073282",
+          "text": "For me it was The Matrix.\n\n\"You have two lives, only one of these lives has a future.\" \n\n\"I hate this place, this zoo, this reality, whatever you want to call it. It's the smell, if there is such a thing.\"\n\nWithout Agent Smith, I probably would not have started writing publicly.",
+          "created_at": "2026-10-11T00:27:22+00:00",
+          "like_count": 36,
+          "retweet_count": 0,
+          "reply_count": 2,
+          "engagement_score": 38,
+          "url": "https://x.com/insane_analyst/status/2109078370483073282",
+          "quoted": {
+            "text": "\"Individual science fiction stories may seem as trivial as ever to the blinder critics and philosophers of today, but the core of science fiction, its essence… has become crucial to our salvation, if we are to be saved at all.\" — Isaac Asimov (namesake of my company's next-generation product) Some people in my tech/startup/AI circle who've never heard of Stargate ask why I care so much, and why yesterday's post got far more attention than usual. I first saw SG-1 at ~6 and was hooked. It's the one thing I can point to that shaped how I think about leadership, science, and what it means to be good at what you do. Hammond trusted his people and put his career on the line to protect them. O'Neill showed you can be irreverent and still deeply principled: you never leave your people behind. I still measure myself against both. Carter and Daniel made being the smartest person in the room look like the coolest thing in the world; problems were solved by thinking harder, not shooting harder. Add Teal'c's integrity, and you had a team where everyone was competent, nobody was made dumb for plot convenience, and capable people disagreed, respected each other, and had each other's backs. That's why I opened with Asimov (whose words also appear in SG-1's 200th episode). Good science fiction matters. It gave a 6-year-old role models I'm still trying to live up to. If you build things for a living and haven't seen it, start with SG-1. Thank you to the cast, crew, writers, and creators behind nearly 30 years of Stargate. @AmazonMGMStudio, please give it the care it deserves. #SaveStargate @bradtravelers @BaronDestructo @MichaelShanks @afullcirclepod @dial_the_gate",
+            "handle": "trsohmers",
+            "url": "https://x.com/trsohmers/status/2109076012411818278"
+          }
         }
       ]
     },
@@ -339,30 +313,9 @@
       "name": "Guillermo Rauch (Vercel)",
       "domain": "ai",
       "tier": "builder",
-      "tweets": [
-        {
-          "id": "2106863842450133114",
-          "text": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while.\n\nOne of the first projects we migrated was Turborepo, from Go to Rust¹. The migration completed, but the RoI was actually quite controversial internally.\n\nWhile Rust was in our eyes better for low-level OS access, something crucial for a build system like Turbo, the human migration costs were very sustantive.\n\nGo is very fast. It's beautifully designed. It's easy to iterate on. We were very conflicted about the migration, because it was *humans* writing the code, *even if we knew Rust was a better choice*.\n\nThe calculus has now changed. What's \"best for humans\" is no longer necessarily \"best for business\". \n\nFWIW, it's also quite unlikely that Rust is the end-all-be-all toolchain. I'm quite certain there's greener pasture ahead, because Rust itself was designed before the 'supersonic tsunami' of agents hit.\n\n¹ https​://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust",
-          "created_at": "2026-10-04T21:47:38+00:00",
-          "like_count": 2275,
-          "retweet_count": 98,
-          "reply_count": 138,
-          "engagement_score": 2609,
-          "url": "https://x.com/rauchg/status/2106863842450133114"
-        },
-        {
-          "id": "2106848085267902815",
-          "text": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for human consumption. The documentation internals are AI English, because they're for agents.\n\nThis little rule of thumb can make the world better. Blogs, tweets, READMEs: human communication. It's not even about \"em dashes\" or lack thereof. It's that it's the story-telling moment where you want to connect with other humans through their words.",
-          "created_at": "2026-10-04T20:45:01+00:00",
-          "like_count": 1204,
-          "retweet_count": 45,
-          "reply_count": 145,
-          "engagement_score": 1439,
-          "url": "https://x.com/rauchg/status/2106848085267902815"
-        }
-      ]
+      "tweets": []
     }
   ],
   "errors": null,
-  "generated_at": "2026-10-05T11:38:47.550177+00:00"
+  "generated_at": "2026-10-11T02:58:55.027949+00:00"
 }
