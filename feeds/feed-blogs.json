@@ -1,71 +1,69 @@
 {
   "articles": [
     {
-      "id": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "published": "2026-10-13T19:43:07+00:00",
-      "summary": "Learn more about our approach to safety and security for Gemini 4 Argon."
-    },
-    {
-      "id": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "published": "2026-10-13T16:01:58+00:00",
-      "summary": "Discover Gemini 4 Argon for robotics: leading the ERQA benchmark with physical reasoning, zero-shot control, Real2Sim, and agentic workflows."
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "published": "2026-10-13T16:01:52+00:00",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model."
-    },
-    {
-      "id": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "id": "https://openai.com/index/greptile-code-review-codex-astra",
       "source": "openai",
       "source_name": "OpenAI",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "published": "2026-10-13T12:00:00+00:00",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live."
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "published": "2026-10-26T22:00:00+00:00",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework."
     },
     {
-      "id": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "published": "2026-10-13T00:00:00+00:00",
-      "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months."
+      "id": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "published": "2026-10-26T14:30:00+00:00",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them."
     },
     {
-      "id": "https://www.anthropic.com/research/distillation-defenses",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Strengthening our defenses against distillation attacks",
-      "url": "https://www.anthropic.com/research/distillation-defenses",
-      "published": "2026-10-12T00:00:00+00:00",
-      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%."
+      "id": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "published": "2026-10-26T13:45:00+00:00",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes."
     },
     {
-      "id": "https://www.anthropic.com/research/self-replicating-ai",
+      "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "published": "2026-10-26T10:00:00+00:00",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
+    },
+    {
+      "id": "https://stratechery.com/2026/the-end-of-the-internet/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "The End of the Internet",
+      "url": "https://stratechery.com/2026/the-end-of-the-internet/",
+      "published": "2026-10-26T10:00:00+00:00",
+      "summary": "The old Internet, where anyone could host a server is over, but it's just the final blow in an ending that has been coming for years. The future, though, is brighter than it appears."
+    },
+    {
+      "id": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "published": "2026-10-26T07:00:00+00:00",
+      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement."
+    },
+    {
+      "id": "https://www.anthropic.com/news/s1-sec",
       "source": "anthropic",
       "source_name": "Anthropic",
-      "title": "AI models may be capable of self-replicating without access to a datacenter",
-      "url": "https://www.anthropic.com/research/self-replicating-ai",
-      "published": "2026-10-12T00:00:00+00:00",
-      "summary": "Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed."
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "published": "2026-10-26T00:00:00+00:00",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
     }
   ],
-  "errors": [
-    "Stratechery (Ben Thompson): Client error '429 Too Many Requests' for url 'https://stratechery.com/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-  ],
-  "generated_at": "2026-10-14T00:51:31.057791+00:00"
+  "errors": null,
+  "generated_at": "2026-10-27T02:02:42.339928+00:00"
 }
