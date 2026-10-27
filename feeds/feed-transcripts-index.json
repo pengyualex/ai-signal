@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-14T06:24:59.398154+00:00",
+  "generated_at": "2026-10-27T02:04:15.800970+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://lexfridman.com/?p=7807",
+      "link": "https://lexfridman.com/math-ai-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=math-ai-crisis",
+      "channel": "Lex Fridman",
+      "title": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "pub_date": "2026-10-26T22:52:28+00:00",
+      "transcript_path": "feeds/transcripts/5e6fe13ba1338fcf16c25915.txt",
+      "transcript_chars": 199479,
+      "transcript_source": "description_transcript_link",
+      "cached_at": "2026-10-27T02:03:30.573886+00:00",
+      "last_seen_at": "2026-10-27T02:04:15.800970+00:00",
+      "expires_at": "2026-11-10T02:04:15.800970+00:00"
+    },
     {
       "guid": "df9fe70c-a787-4f9f-b869-ab6bd6758a7b",
       "link": "https://allinchamathjason.libsyn.com/martin-shkreli-big-pharmas-blind-spot-betting-against-quantum-what-prison-taught-him",
@@ -12,60 +25,8 @@
       "transcript_chars": 3997,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-13T07:57:43.381290+00:00",
-      "last_seen_at": "2026-10-14T06:24:59.398154+00:00",
-      "expires_at": "2026-10-28T06:24:59.398154+00:00"
-    },
-    {
-      "guid": "bcecac98-430a-4361-9737-bfebe7ca9ad5",
-      "link": "https://deepmind.com/podcast",
-      "channel": "Google DeepMind Podcast",
-      "title": "From deepfakes to DNA: the science of watermarking AI",
-      "pub_date": "2026-10-01T16:38:11+00:00",
-      "transcript_path": "feeds/transcripts/bc702da163310c2a84268fc5.txt",
-      "transcript_chars": 18566,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-10-02T07:14:45.868742+00:00",
-      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
-      "expires_at": "2026-10-16T07:15:44.523485+00:00"
-    },
-    {
-      "guid": "https://www.dwarkesh.com/p/si-sheppard",
-      "link": "https://www.dwarkesh.com/p/si-sheppard",
-      "channel": "Dwarkesh Patel",
-      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
-      "pub_date": "2026-10-01T15:28:28+00:00",
-      "transcript_path": "feeds/transcripts/7f72fee2f40583e7417be354.txt",
-      "transcript_chars": 100962,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-10-02T07:14:45.868742+00:00",
-      "last_seen_at": "2026-10-02T07:15:44.523485+00:00",
-      "expires_at": "2026-10-16T07:15:44.523485+00:00"
-    },
-    {
-      "guid": "yt:NBRcatReLD4",
-      "link": "https://www.youtube.com/watch?v=NBRcatReLD4",
-      "channel": "Associated Press",
-      "title": "LIVE: Elon Musk, Jensen Huang and JD Vance speak at the unveiling of America.gov",
-      "pub_date": "",
-      "transcript_path": "feeds/transcripts/9e2f850329e4c5917c8338d9.txt",
-      "transcript_chars": 41343,
-      "transcript_source": "youtube_transcript_api",
-      "cached_at": "2026-09-30T07:00:02.505987+00:00",
-      "last_seen_at": "2026-10-06T07:49:25.410194+00:00",
-      "expires_at": "2026-10-20T07:49:25.410194+00:00"
-    },
-    {
-      "guid": "yt:djDt8J2_YVs",
-      "link": "https://www.youtube.com/watch?v=djDt8J2_YVs",
-      "channel": "Computer History Museum",
-      "title": "CHM Live | Anthropic's Boris Cherny, Creator of Claude Code",
-      "pub_date": "",
-      "transcript_path": "feeds/transcripts/654ab7dd4c3a3b9e2298f7f2.txt",
-      "transcript_chars": 72960,
-      "transcript_source": "youtube_transcript_api",
-      "cached_at": "2026-09-30T07:00:02.505987+00:00",
-      "last_seen_at": "2026-10-06T07:49:25.410194+00:00",
-      "expires_at": "2026-10-20T07:49:25.410194+00:00"
+      "last_seen_at": "2026-10-27T02:04:15.800970+00:00",
+      "expires_at": "2026-11-10T02:04:15.800970+00:00"
     },
     {
       "guid": "cbcb6353-9937-4c25-9f83-93e1f096d3e6",
@@ -105,45 +66,6 @@
       "cached_at": "2026-09-22T01:37:35.641465+00:00",
       "last_seen_at": "2026-10-13T03:02:15.501635+00:00",
       "expires_at": "2026-10-27T03:02:15.501635+00:00"
-    },
-    {
-      "guid": "a2a542d5-2feb-441a-a523-910e16c2d193",
-      "link": "https://allinchamathjason.libsyn.com/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml-10-the-50b-game-ad-market",
-      "channel": "All-In Podcast",
-      "title": "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
-      "pub_date": "2026-09-20T20:49:00+00:00",
-      "transcript_path": "feeds/transcripts/5d492beca082beab6a0326ff.txt",
-      "transcript_chars": 3959,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-21T01:38:29.824795+00:00",
-      "last_seen_at": "2026-10-09T07:39:55.174185+00:00",
-      "expires_at": "2026-10-23T07:39:55.174185+00:00"
-    },
-    {
-      "guid": "f225e979-78f3-4508-95fe-79293b3ff678",
-      "link": "https://allinchamathjason.libsyn.com/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais-take-off-problem",
-      "channel": "All-In Podcast",
-      "title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
-      "pub_date": "2026-09-17T03:04:00+00:00",
-      "transcript_path": "feeds/transcripts/4481e45609453cec64d84352.txt",
-      "transcript_chars": 3854,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-18T01:36:16.383884+00:00",
-      "last_seen_at": "2026-10-07T07:27:12.696214+00:00",
-      "expires_at": "2026-10-21T07:27:12.696214+00:00"
-    },
-    {
-      "guid": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
-      "link": "https://allinchamathjason.libsyn.com/jd-vance-on-ai-entitlement-fraud-iran-war-israel-h-1b-abuse-the-midterms",
-      "channel": "All-In Podcast",
-      "title": "JD Vance on AI, Entitlement Fraud, Iran War, Israel, H-1B Abuse & the Midterms",
-      "pub_date": "2026-09-15T20:46:00+00:00",
-      "transcript_path": "feeds/transcripts/98a76c7c697d96df3edbffdb.txt",
-      "transcript_chars": 4035,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-18T01:36:16.383884+00:00",
-      "last_seen_at": "2026-10-06T07:49:25.410194+00:00",
-      "expires_at": "2026-10-20T07:49:25.410194+00:00"
     }
   ]
 }
